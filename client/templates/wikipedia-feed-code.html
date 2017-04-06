@@ -1,0 +1,50 @@
+<div>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#wikipedia-code-markup" data-toggle="tab">Markup</a></li>
+        <li><a href="#wikipedia-featured-article" data-toggle="tab">wikipedia-featured-article.html</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane active" id="wikipedia-code-markup">
+    <pre class="prettyprint linenums">
+&lt;script type="text/javascript"&gt;
+//run only trusted code here :)
+function wikipediaFeedPostRender() {
+    $('#wikipedia-feed').find('a').each(function (idx, anchor) {
+        anchor.target = '_new';
+        anchor.href = anchor.href.replace(window.location.origin, 'http://en.wikipedia.org');
+    })
+}
+&lt;/script&gt;
+&lt;feed id="wikipedia-feed" count="10"
+      url="http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
+      template-url="templates/wikipedia-featured-article.html"
+      post-render="wikipediaFeedPostRender();"/&gt;</pre>
+        </div>
+        <div class="tab-pane" id="wikipedia-featured-article">
+            <pre class="prettyprint linenums">
+&lt;div id="wikipedia-featured-articles" class="carousel slide" data-ride="carousel" data-interval="false"&gt;
+    &lt;ol class="carousel-indicators"&gt;
+        &lt;li data-target="#wikipedia-featured-articles" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+        &lt;li data-target="#wikipedia-featured-articles" data-slide-to="1"&gt;&lt;/li&gt;
+        &lt;li data-target="#wikipedia-featured-articles" data-slide-to="2"&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;div class="carousel-inner"&gt;
+        &lt;div ng-repeat="feed in feeds" class="item" ng-class="{active: $index==0}"&gt;
+            &lt;h4 class="text-center"&gt;&lt;a target="_new" href="{{feed.link}}" ng-bind-html="feed.title"&gt;&lt;/a&gt;&lt;/h4&gt;
+            &lt;p ng-bind-html="!summary ? feed.content : feed.contentSnippet"&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;a class="left carousel-control" href="#wikipedia-featured-articles" data-slide="prev"&gt;
+        &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a class="right carousel-control" href="#wikipedia-featured-articles" data-slide="next"&gt;
+        &lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+            </pre>                
+        </div>
+    </div>
+</div>
