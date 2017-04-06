@@ -1,1 +1,1 @@
-# mean-stack-authentication-and-registration-with-passport
+# mean-stack-BOT
