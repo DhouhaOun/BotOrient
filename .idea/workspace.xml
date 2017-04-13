@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6240ccf9-b7f2-42d0-8527-f7fd79079d27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/add_university.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/edit_university.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/university_details.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/universitys.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/controllers/jobController.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,11 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_university.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add_university.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/add_university.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
               <caret line="81" column="13" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="81" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jobController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/controllers/jobController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -303,6 +310,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -323,11 +348,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\oops\2eme ann\Semestre2\4)NodeJs\pifinale\projetgit\BotOrient\client\controllers" />
       <recent name="E:\oops\2eme ann\Semestre2\4)NodeJs\pifinale\projetgit\BotOrient\client\views" />
       <recent name="E:\oops\2eme ann\Semestre2\4)NodeJs\pifinale\projetgit\BotOrient\server" />
       <recent name="C:\botaii\botaii\client\views" />
       <recent name="C:\botaii\botaii\client\fonts" />
-      <recent name="C:\botaii\botaii\client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\botaii\botaii\models" />
@@ -433,12 +458,12 @@
       <workItem from="1492015518594" duration="944000" />
       <workItem from="1492075439625" duration="5930000" />
       <workItem from="1492086610964" duration="17919000" />
-      <workItem from="1492119901303" duration="2691000" />
+      <workItem from="1492119901303" duration="3237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80513000" />
+    <option name="totallyTimeSpent" value="81059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -580,13 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/jobController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -828,6 +846,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="81" column="13" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="81" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/jobController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
