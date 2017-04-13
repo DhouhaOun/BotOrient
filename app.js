@@ -449,7 +449,7 @@ var apiUniversity = require('./server/apiUniversity');
 var apiUser = require('./server/apidiploma');
 
 app.use('/api', api);
-app.use('/apiUniversity', apiUniversity);
+
 app.use('/', apiUser);
 
 /*app.listen(

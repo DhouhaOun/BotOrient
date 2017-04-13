@@ -69,54 +69,7 @@
                     controller:'DiplomasController',
                     templateUrl:'views/diploma/edit_diploma.html'
                 })
-                .when('/universitys', {
-                    controller:'UniversityController',
-                    templateUrl: 'views/universitys.html'
-                })
-                .when('/universitys/details/:id',{
-                    controller:'UniversityController',
-                    templateUrl: 'views/university_details.html'
-                })
-                .when('/universitys/add',{
-                    controller:'UniversityController',
-                    templateUrl: 'views/add_university.html'
-                })
-                .when('/universitys/edit/:id',{
-                    controller:'UniversityController',
-                    templateUrl: 'views/edit_university.html'
-                })
-                .when('/universitys/delete/:id',{
-                    controller:'UniversityController',
-                    templateUrl: 'views/universitys.html'
-                })
-                .when('/universitysclient', {
-                    controller:'UniversityController',
-                    templateUrl: 'views/universitys_client.html'
-                })
-                .when('/universitysclient/details/:id',{
-                    controller:'UniversityController',
-                    templateUrl: 'views/client_details.html'
-                })
-                .when('/jobs', {
-                    controller:'JobsController',
-                    templateUrl: 'views/jobs.html'
-                })
-                .when('/jobs/details/:id',{
-                    controller:'JobsController',
-                    templateUrl: 'views/job_details.html'
-                })
-                .when('/jobs/add',{
-                    controller:'JobsController',
-                    templateUrl: 'views/add_job.html'
-                })
-                .when('/jobs/edit/:id',{
-                    controller:'JobsController',
-                    templateUrl: 'views/edit_job.html'
-                })
-                .when('/jobs/delete/:id',{
-                    controller:'JobsController',
-                    templateUrl: 'views/jobs.html'
-                })
+
               .otherwise({
                   redirectTo: '/login'
               });
