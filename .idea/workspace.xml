@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6240ccf9-b7f2-42d0-8527-f7fd79079d27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/controllers/universitys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/config.js" afterPath="$PROJECT_DIR$/client/config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="universitys.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="universitys.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/controllers/universitys.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -104,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -117,11 +117,9 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-              <folding>
-                <marker date="1492120367078" expanded="true" signature="98:3035" ph="{...}" />
-              </folding>
+            <state relative-caret-position="827">
+              <caret line="110" column="18" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -208,8 +206,8 @@
         <option value="$PROJECT_DIR$/client/views/job_details.html" />
         <option value="$PROJECT_DIR$/client/views/add_job.html" />
         <option value="$PROJECT_DIR$/client/views/universitys.html" />
-        <option value="$PROJECT_DIR$/client/config.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/client/config.js" />
       </list>
     </option>
   </component>
@@ -468,12 +466,12 @@
       <workItem from="1492015518594" duration="944000" />
       <workItem from="1492075439625" duration="5930000" />
       <workItem from="1492086610964" duration="17919000" />
-      <workItem from="1492119901303" duration="3325000" />
+      <workItem from="1492119901303" duration="3664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81147000" />
+    <option name="totallyTimeSpent" value="81486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -803,24 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding>
-            <marker date="1492120367078" expanded="true" signature="98:3035" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/apiUniversity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -865,6 +845,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="110" column="18" lean-forward="false" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
