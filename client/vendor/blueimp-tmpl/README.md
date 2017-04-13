@@ -91,7 +91,7 @@ Add a file **template.html** with the following content:
 </ul>
 ```
 
-Add a file **server.js** with the following content:
+Add a file **app.js** with the following content:
 
 ```js
 require("http").createServer(function (req, res) {
@@ -126,7 +126,7 @@ console.log("Server running at http://localhost:8080/");
 Run the application with the following command:
 
 ```sh
-node server.js
+node app.js
 ```
 
 ## Requirements

@@ -1,0 +1,207 @@
+<!doctype html>
+
+<h1>Admin</h1>
+
+ <div class="app layout-fixed-header">
+    <!-- sidebar panel -->
+    <div class="sidebar-panel offscreen-left">
+        <div class="brand">
+
+            <!-- toggle small sidebar menu -->
+            <a href="javascript:;" class="toggle-apps hidden-xs" data-toggle="quick-launch">
+                <i class=""></i>
+            </a>
+
+            <!-- /toggle small sidebar menu -->
+            <!-- toggle offscreen menu -->
+            <div class="toggle-offscreen">
+                <a href="javascript:;" class="visible-xs hamburger-icon" data-toggle="offscreen" data-move="ltr">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <!-- /toggle offscreen menu -->
+            <!-- logo -->
+            <a class="brand-logo">
+                <span><a href="#admin">Dashbord</a></span></a>
+            </a>
+            <a href="#" class="small-menu-visible brand-logo">R</a>
+            <!-- /logo -->
+        </div>
+        <span><a href="#feeds">Feeds</a></span></br>
+        <span><a href="#diplomas">diplomas</a></span>
+        <ul class="quick-launch-apps hide">
+            <li>
+
+                <a href="#admin">
+                    <i class="icon-compass"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>      <!-- /static -->
+        </ul>
+        </nav>
+        <!-- /main navigation -->
+    </div>
+    <!-- /sidebar panel -->
+    <!-- content panel -->
+    <div class="main-panel">
+        <!-- top header -->
+        <div class="header navbar">
+            <div class="brand visible-xs">
+                <!-- toggle offscreen menu -->
+                <div class="toggle-offscreen">
+                    <a href="javascript:;" class="hamburger-icon visible-xs" data-toggle="offscreen" data-move="ltr">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <!-- /toggle offscreen menu -->
+                <!-- logo -->
+                <a class="brand-logo">
+                    <span><a href="#home">Home</a></span>
+                </a>
+                <!-- /logo -->
+            </div>
+            <ul class="nav navbar-nav hidden-xs">
+
+                <li class="navbar-form search-form hide">
+                    <input type="search" class="form-control search-input" placeholder="Start typing...">
+                    <div class="search-predict hide">
+                        <a href="#">Searching for 'purple rain'</a>
+                        <div class="heading">
+                            <span class="title">People</span>
+                        </div>
+                        <ul class="predictive-list">
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face1.jpg" class="img-circle" alt="">
+                                    <span>Tammy Carpenter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face2.jpg" class="img-circle" alt="">
+                                    <span>Catherine Moreno</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face3.jpg" class="img-circle" alt="">
+                                    <span>Diana Robertson</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face4.jpg" class="img-circle" alt="">
+                                    <span>Emma Sullivan</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="heading">
+                            <span class="title">Page posts</span>
+                        </div>
+                        <ul class="predictive-list">
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/unsplash/img2.jpeg" class="img-rounded" alt="">
+                                    <span>The latest news for cloud-based developers </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/unsplash/img2.jpeg" class="img-rounded" alt="">
+                                    <span>Trending Goods of the Week</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+
+
+                <li>
+                    <a href="javascript:;" class="ripple" data-toggle="dropdown">
+                        <img src="images/avatar.jpg" class="header-avatar img-circle" alt="user" title="user">
+                        <span ng-show="currentUser">
+
+{{currentUser.username}}
+
+</span>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#profile">Profil</a>
+                        </li>
+
+
+
+                        <li>
+                            <a href="#logout" ng-click="logout()">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /top header -->
+        <!-- main area -->
+        <div class="main-content">
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+
+    <link rel="stylesheet" href="angular-feeds/angular-feeds.min.css">
+    <link rel="stylesheet" href="styles/my-feeds.css">
+</head>
+<div  ng-controller="MyFeedsController">
+
+<div class="container">
+
+
+    <div id="my-feeds" class="row">
+        <div ng-controller="FeedWidgetController" ng-repeat="feed in feeds" class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div ng-include src="'templates/feed-widget-control.html'"></div>
+                    <h3 ng-click="toggleFeed();" class="panel-title">{{feed.title}}</h3>
+                </div>
+                <div ng-if="!collapsed" class="panel-body feed-body">
+                    <div class="feed-block" feed-widget>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="feeds.length == 0" class="col-sm-12">
+            <div class="alert text-center alert-warning fade in">
+                Sorry, nothing to show here :(
+            </div>
+        </div>
+    </div>
+</div>
+    <table>
+
+    </table>
+</div>
+
+    </div>
+    <!-- /chat -->
+</div>
+<!--[if lt IE 9]>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/json3/lib/json3.min.js"></script>
+<![endif]-->
+
+
+
+</div>
+</html>

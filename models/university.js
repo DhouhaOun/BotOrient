@@ -11,6 +11,10 @@ var universitySchema = mongoose.Schema({
         required: true
 
 	},
+        category1:{
+            type: String,
+            required: true
+        },
 	adresse:{
 		type: String,
         minlength:1

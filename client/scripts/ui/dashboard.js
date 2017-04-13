@@ -97,19 +97,19 @@
     }
   }];
 
-  $.plot($('.dashboard-barO'), barDataO, {
-    grid: {
-      hoverable: false,
-      clickable: false,
-      labelMargin: 8,
-      color: $.staticApp.border,
-      borderWidth: 0,
-    },
-    xaxis: {
-      show: false
-    },
-    stack: true
-  });
+ // $.plot($('.dashboard-barO'), barDataO, {
+  //  grid: {
+   //   hoverable: false,
+    //  clickable: false,
+    //  labelMargin: 8,
+    //  color: $.staticApp.border,
+    //  borderWidth: 0,
+    //},
+   // xaxis: {
+   //   show: false
+   // },
+  //  stack: true
+ // });
 
 
 
@@ -128,24 +128,24 @@
     }
   }];
 
-  $.plot($('.dashboard-bar2'), barData2, {
-    grid: {
-      borderWidth: 0,
-      aboveData: true,
-    },
-    yaxis: {
-      color: 'rgba(255,255,255,0.1)',
-    },
-    xaxis: {
-      mode: 'categories',
-      tickLength: 0,
-      axisLabelUseCanvas: true,
-      axisLabelFontSizePixels: 12,
-      axisLabelFontFamily: 'Roboto',
-      axisLabelPadding: 5,
-      reserveSpace: true
-    }
-  });
+  //$.plot($('.dashboard-bar2'), barData2, {
+  //  grid: {
+   //   borderWidth: 0,
+   //   aboveData: true,
+   // },
+   // yaxis: {
+   //   color: 'rgba(255,255,255,0.1)',
+   // },
+   // xaxis: {
+   //   mode: 'categories',
+   //   tickLength: 0,
+   //   axisLabelUseCanvas: true,
+    //  axisLabelFontSizePixels: 12,
+   //   axisLabelFontFamily: 'Roboto',
+   //   axisLabelPadding: 5,
+   //   reserveSpace: true
+   // }
+  //});
 
 
 
@@ -211,23 +211,7 @@
     data: 15,
     color: $.staticApp.warning
   }];
-  $.plot($('.pie-chart'), data, {
-    series: {
-      pie: {
-        show: true,
-        //innerRadius: 0.6,
-        stroke: {
-          width: 0
-        },
-        label: {
-          show: false,
-        }
-      }
-    },
-    legend: {
-      show: false
-    }
-  });
+ 
 
 
 })(jQuery);
