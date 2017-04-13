@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6240ccf9-b7f2-42d0-8527-f7fd79079d27" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/controllers/jobController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/controllers/universitys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/add_job.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/add_university.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/edit_job.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/edit_university.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/job_details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/jobs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/university_details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/universitys.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/universitys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/views/universitys_client.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/university.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/apiUniversity.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/apiUniversity.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/config.js" afterPath="$PROJECT_DIR$/client/config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +48,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="448" column="24" lean-forward="false" selection-start-line="448" selection-start-column="24" selection-end-line="448" selection-end-column="24" />
+            <state relative-caret-position="321">
+              <caret line="453" column="0" lean-forward="true" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apiUniversity.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/apiUniversity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -172,8 +167,8 @@
         <option value="$PROJECT_DIR$/client/views/job_details.html" />
         <option value="$PROJECT_DIR$/client/views/add_job.html" />
         <option value="$PROJECT_DIR$/client/views/universitys.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/client/config.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -266,24 +261,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -303,19 +280,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\oops\2eme ann\Semestre2\4)NodeJs\pifinale\projetgit\BotOrient\server" />
+      <recent name="C:\botaii\botaii\client\views" />
+      <recent name="C:\botaii\botaii\client\fonts" />
+      <recent name="C:\botaii\botaii\client" />
+      <recent name="C:\botaii\botaii\client\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\botaii\botaii\models" />
       <recent name="C:\botaii\botaii\server" />
       <recent name="C:\botaii\botaii\server\mod" />
       <recent name="C:\botaii\botaii\server\services" />
       <recent name="C:\botaii\botaii" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\botaii\botaii\client\views" />
-      <recent name="C:\botaii\botaii\client\fonts" />
-      <recent name="C:\botaii\botaii\client" />
-      <recent name="C:\botaii\botaii\client\images" />
-      <recent name="C:\botaii\botaii\client\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -414,12 +391,12 @@
       <workItem from="1492015518594" duration="944000" />
       <workItem from="1492075439625" duration="5930000" />
       <workItem from="1492086610964" duration="17919000" />
-      <workItem from="1492119901303" duration="523000" />
+      <workItem from="1492119901303" duration="2034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78345000" />
+    <option name="totallyTimeSpent" value="79856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -606,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/apiUniversity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/css/bootstrap-theme.min.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -786,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="448" column="24" lean-forward="false" selection-start-line="448" selection-start-column="24" selection-end-line="448" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -806,6 +768,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="453" column="0" lean-forward="true" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/apiUniversity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
