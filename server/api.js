@@ -21,7 +21,11 @@ router.get('/jobs/:_id', function(req, res) {
         res.status(200).send(Job);
     })
 });
-
+router.put('/jobs/:_id', function(req, res) {
+    Job.findByIdAndUpdate(req.params._id,req.body,function () {
+        res.json({"success":true});
+    })
+});
 router.post('/jobs', function(req, res) {
     var job = req.body;
     Job.create(job, function (err, job) {
@@ -32,11 +36,7 @@ router.post('/jobs', function(req, res) {
 
 });
 
-router.put('/jobs/:_id', function(req, res) {
-    Job.findByIdAndUpdate(req.params._id,req.body,function () {
-        res.json({"success":true});
-    })
-});
+
 
 router.delete('/jobs/:_id', function(req, res)  {
 
