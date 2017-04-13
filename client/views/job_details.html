@@ -1,0 +1,24 @@
+<a href="#/jobs">Go Back</a>
+<div class="panel panel-default" ng-init="getJob()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{job.name}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="{{job.image_url}}">
+      </div>
+      <div class="col-md-8">
+        </p>{{job.description}}</p>
+        <ul class="list-group">
+          <li class="list-group-item">Category: {{job.category}}</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/jobs/edit/{{job._id}}">Edit</a> |  <a href="#" ng-click="removeJob(job._id)">Delete</a>
+  </div>
