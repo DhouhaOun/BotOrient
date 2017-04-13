@@ -1,22 +1,27 @@
-/**
- * Created by poste on 08/04/2017.
- */
-'use strict';
 
-const apiai = require('apiai');
-const express = require('express');
-const bodyParser = require('body-parser');
-const uuid = require('node-uuid');
-const request = require('request');
-const JSONbig = require('json-bigint');
-const async = require('async');
-
+var express       = require('express');
+var app           = express();
+var apiai = require('apiai');
+var bodyParser    = require('body-parser');
+var multer        = require('multer');
+var passport      = require('passport');
+var cookieParser  = require('cookie-parser');
+var session       = require('cookie-session');
+var uuid = require('node-uuid');
+var request = require('request');
+var JSONbig = require('json-bigint');
+var async = require('async');
+//var mongoose      = require('mongoose');
+//var port = process.env.PORT || 5000 ;
 const REST_PORT = (process.env.PORT || 5000);
-const APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN;
-const APIAI_LANG = process.env.APIAI_LANG || 'en';
-const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN;
-const FB_PAGE_ACCESS_TOKEN = process.env.FB_PAGE_ACCESS_TOKEN;
-const FB_TEXT_LIMIT = 640;
+
+var APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN;
+var APIAI_LANG = process.env.APIAI_LANG || 'en';
+var FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN;
+var FB_PAGE_ACCESS_TOKEN = process.env.FB_PAGE_ACCESS_TOKEN;
+var FB_TEXT_LIMIT = 640;
+
+var db=require('./models/db');
 
 class FacebookBot {
     constructor() {
@@ -417,22 +422,41 @@ class FacebookBot {
 
 let facebookBot = new FacebookBot();
 
-const app = express();
+
+//const app = express();
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+multer();
+app.use(session({
+    secret: 'this is the secret',
+    resave: true,
+    saveUninitialized: true
+}));
+
+app.use(cookieParser());
+app.use(passport.initialize());
+app.use(passport.session());
+
 app.use(express.static(__dirname+'/client'));
 app.use(bodyParser.text({type: 'application/json'}));
-app.use(bodyParser.json());
 
-var db=require('./models/db');
+
+
+
+
 var api = require('./server/api');
 var apiUniversity = require('./server/apiUniversity');
+var apiUser = require('./server/apidiploma');
 
 app.use('/api', api);
 app.use('/apiUniversity', apiUniversity);
+app.use('/', apiUser);
 
+/*app.listen(
 
-app.get('/', function(req, res) {
-    res.render('index.twig');
-});
+ );
+ console.log('Server running on port: ' + port);*/
+
 app.get('/webhook/', (req, res) => {
     if (req.query['hub.verify_token'] == FB_VERIFY_TOKEN) {
         res.send(req.query['hub.challenge']);

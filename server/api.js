@@ -3,9 +3,7 @@ var express = require('express');
 var router = express.Router();
 var Job =require('../models/job');
 
-router.get('/', (req, res) => {
-    res.send('test');
-});
+
 
 
 router.get('/jobs', function(req, res) {
