@@ -1,0 +1,23 @@
+<a href="#/universitys">Go Back</a>
+<div class="panel panel-default" ng-init="getUniversity()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{university.name}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="{{university.image_url}}">
+      </div>
+      <div class="col-md-8">
+
+        </p>{{university.adresse}}</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/universitys/edit/{{university._id}}">Edit</a> |  <a href="#" ng-click="removeUniversity(university._id)">Delete</a>
+  </div>

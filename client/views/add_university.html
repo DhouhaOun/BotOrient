@@ -1,0 +1,39 @@
+<a href="#/universitys">Go Back</a>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add University</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+      <form>
+        <div class="form-group">
+          <label>Name Of University</label>
+          <input type="text" class="form-control" ng-model="university.name" placeholder="Name Of University">
+        </div>
+        <div class="form-group">
+          <label>Category</label>
+          <select ng-model="university.category" class="form-control">
+            <option value="Suspense">public</option>
+            <option value="Drama">private</option>
+
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Adresse</label>
+          <input type="text" class="form-control" ng-model="university.adresse" placeholder="Adresse">
+        </div>
+
+
+        <div class="form-group">
+          <label>Image URL</label>
+          <input type="text" class="form-control" ng-model="university.image_url" placeholder="Image URL">
+        </div>
+
+       
+        <button type="submit" ng-click="addUniversity()" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    </div>
+  </div>
+</div>

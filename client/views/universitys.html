@@ -1,0 +1,22 @@
+<div class="panel panel-default" ng-init="getUniversitys()">
+  <div class="panel-heading">
+    <h3 class="panel-title">Latest Universitys</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+    	<div ng-repeat="university in universitys">
+    		<div class="col-md-6">
+    			<div class="col-md-6">
+    				<h4>{{university.name}}</h4>
+    				<p>{{university.adresse}}</p>
+    				<a class="btn btn-primary" href="#/universitys/details/{{university._id}}">View Details</a>
+
+				</div>
+    			<div class="col-md-6">
+    				<img class="thumbnail" src="{{university.image_url}}">
+    			</div>
+    		</div>
+    	</div>
+    </div>
+  </div>
+</div>

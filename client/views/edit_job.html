@@ -1,0 +1,38 @@
+<a href="#/jobs">Go Back</a>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Edit Job</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+      <form ng-init="getJob()">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" ng-model="job.name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label>Category</label>
+          <select ng-model="job.category" class="form-control">
+            <option value="Architecture">Architecture</option>
+            <option value="Medecine">Medecine</option>
+            <option value="Culture&art">Culture&art</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea class="form-control" ng-model="job.description" placeholder="Description"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Image URL</label>
+          <input type="text" class="form-control" ng-model="job.image_url" placeholder="Image URL">
+        </div>
+
+       
+        <button type="submit" ng-click="updateJob()" class="btn btn-default">Submit</button>
+
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
