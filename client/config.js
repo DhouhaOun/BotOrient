@@ -89,6 +89,16 @@
                     controller:'UniversityController',
                     templateUrl: 'views/universitys.html'
                 })
+                .when('/universitysclient', {
+                controller:'UniversityController',
+                templateUrl: 'views/universitys_client.html'
+                })
+
+                .when('/universitysclient/details/:id',{
+                    controller:'UniversityController',
+                    templateUrl: 'views/client_details.html'
+                })
+
                 .when('/jobs', {
                     controller:'JobsController',
                     templateUrl: 'views/jobs.html'
@@ -108,6 +118,30 @@
                 .when('/jobs/delete/:id',{
                     controller:'JobsController',
                     templateUrl: 'views/jobs.html'
+                })
+                .when('/sections', {
+                    controller:'SectionController',
+                    templateUrl: 'views/section.html'
+                })
+                .when('/sections/details/:id',{
+                    controller:'SectionController',
+                    templateUrl: 'views/section_details.html'
+                })
+                .when('/sections/add',{
+                    controller:'SectionController',
+                    templateUrl: 'views/add_section.html'
+                })
+                .when('/sections/edit/:id',{
+                    controller:'SectionController',
+                    templateUrl: 'views/edit_section.html'
+                })
+                .when('/sections/delete/:id',{
+                    controller:'SectionController',
+                    templateUrl: 'views/section.html'
+                })
+                .when('/sectionclient',{
+                    controller: 'SectionController',
+                    templateUrl:'views/section_client.html'
                 })
               .otherwise({
                   redirectTo: '/login'

@@ -1,4 +1,4 @@
-var myApp = angular.module('PassportApp');
+var myApp = angular.module('myApp');
 
 myApp.controller('UniversityController', ['$scope', '$http', '$location', '$routeParams', function($scope, $http, $location, $routeParams){
 	console.log('UniversityController loaded...');

@@ -52,7 +52,6 @@
 </head>
 
 <body>
-
 <!-- **Wrapper** -->
 <div class="wrapper">
 
@@ -67,11 +66,10 @@
   <div id="bbar-wrapper">
     <div class="container">
 
-
       <div class="column dt-sc-one-half alignright">
         <div class="buttons">
-          <a href="#login" ng-show="!currentUser" title="">Login <i class="fa fa-caret-right"></i></a>
-          <a href="#register" ng-show="!currentUser" title="">Register <i class="fa fa-caret-right"></i></a>
+          <a href="#/login" title="">Login <i class="fa fa-caret-right"></i></a>
+          <a href="#/register" title="">Register <i class="fa fa-caret-right"></i></a>
         </div>
       </div>
     </div>
@@ -96,26 +94,26 @@
               <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/home" title=""> <span class="menu-icon fa fa-envelope"> </span> Home </a>
 
               </li>
-
-              </li>
-
-
-
-
-
-
-              <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/universitysclient" title=""> <span class="menu-icon fa fa-home"> </span> Universities </a>
+              <li class="current_page_item menu-item-simple-parent menu-item-depth-0"> <a href="index.html" title=""> <span class="menu-icon fa fa-home"> </span> University </a>
                 <ul class="sub-menu">
-                  <li> <a href="#/universitysclient" title=""> list of universities </a> </li>
+                  <li> <a href="#/universitysclient" title=""> list of university </a> </li>
+                  <li> <a href="index-v3.html" title=""> Home Layout 3 </a> </li>
+                  <li> <a href="index-v4.html" title=""> Home Layout 4 </a> </li>
+                  <li> <a href="one-page.html" title=""> One Page Layout </a> </li>
                 </ul>
                 <a class="dt-menu-expand">+</a>
               </li>
-              <li class="menu-item-simple-parent menu-item-depth-0" ng-show="currentUser"> <a href="#logout" ng-click="logout()">Logout</a></li>
-              <li class="menu-item-simple-parent menu-item-depth-0" ng-show="currentUser.roles.indexOf('admin') != -1"><a ng-show="currentUser" href="#admin">Admin</a></li>
-              <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/profile" title=""> <span class="menu-icon fa fa-envelope"> </span> Profile </a>
+
+
+
+
+
+
+              <li class="menu-item-simple-parent menu-item-depth-0"> <a href="contact.html" title=""> <span class="menu-icon fa fa-envelope"> </span> Contact </a>
+
+              </li>
 
             </ul>
-
           </nav>
         </div> <!-- **Main-Menu Navigation Ends** -->
       </div>
@@ -137,32 +135,32 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="../../images/orientationblue.jpg" alt="First slide">
+          <img class="first-slide" src="images/reussir-orientation-post-bac.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Bot-Orient.</h1>
-              <p>Your future in safe hands.</p>
-              <p><a class="btn btn-lg btn-primary" href="#/register" role="button">Sign up today</a></p>
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="../../images/img3.jpg" alt="Second slide">
+          <img class="second-slide" src="images/Slider_21.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Bot-Orient.</h1>
-              <p>No more confusion about your future with bot-orient.</p>
-              <p><a class="btn btn-lg btn-primary" href="#/register" role="button">Sign up today</a></p>
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="../../images/Formation_orientation.jpg" alt="Third slide">
+          <img class="third-slide" src="images/Orientation1.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Bot-Orient.</h1>
-              <p>Hey !!! talk to me i am in the bottom right corner of the page.</p>
-              <p><a class="btn btn-lg btn-primary" href="#/register" role="button">Sign up today</a></p>
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -193,6 +191,36 @@
 
 
 
+<div class="fullwidth-section white-gray">
+  <div class="fullwidth-bg">
+    <div class="container">
+
+      <div class="dt-sc-hr-invisible-medium"></div>
+      <div class="dt-sc-clear"></div>
+
+      <!-- Slider #4 -->
+      <div class="page-slider-wrapper right-slide">
+
+
+        <div class="dt-sc-two-fifth column">
+          <ul class="page-slider">
+
+          </ul>
+        </div>
+
+      </div> <!-- Slider #4 Ends -->
+
+      <div class="dt-sc-clear"></div>
+
+
+
+
+      <div class="dt-sc-hr-invisible-medium"></div>
+      <div class="dt-sc-clear"></div>
+
+    </div>
+  </div>
+</div>
 
 
 
@@ -232,13 +260,91 @@
 </section>  <!-- **Content Main Ends** -->
 
 </div> <!-- **Main Ends** -->
-<div class="copyright">
-  <div class="container">
-    <p> Copyright &copy; 2017, developed by <a href="">PiCrew</a>. All rights reserved. </p>
-  </div>
-</div>
-<!-- **Footer** -->
 
+<!-- **Footer** -->
+<footer id="footer">
+  <div class="container">
+    <div class="column dt-sc-one-fourth first">
+      <aside class="widget textwidget">
+        <h3 class="widgettitle">Text Widget<span></span></h3>
+        <p><strong>MultiHost</strong> helps you to quickly and easily build incredible websites with WordPress. <br> <br> Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis. </p>
+      </aside>
+    </div>
+
+    <div class="column dt-sc-one-fourth">
+      <aside class="widget widget_links">
+        <h3 class="widgettitle">Links<span></span></h3>
+        <ul>
+          <li><a href="#" title="">Customer Support</a></li>
+          <li><a href="#" title="">Documentation</a></li>
+          <li><a href="#" title="">Resources</a></li>
+          <li><a href="#" title="">General FAQs</a></li>
+          <li><a href="#" title="">Shortcodes</a></li>
+          <li><a href="#" title="">Theme Help Videos</a></li>
+        </ul>
+      </aside>
+    </div>
+    <div class="column dt-sc-one-fourth">
+      <aside class="widget widget_recent_entries">
+        <h3 class="widgettitle">Latest Posts<span></span></h3>
+        <ul>
+          <li>
+            <h4 class="entry-title"><a href="">Raven's Hello World !</a></h4>
+            <p class="show-meta">
+              <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+              <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+            </p>
+          </li>
+
+          <li>
+            <h4 class="entry-title"><a href="">Our Celebration</a></h4>
+            <p class="show-meta">
+              <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+              <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+            </p>
+          </li>
+
+          <li>
+            <h4 class="entry-title"><a href="">The Real Steel</a></h4>
+            <p class="show-meta">
+              <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+              <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+            </p>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="column dt-sc-one-fourth">
+      <aside class="widget widget_newsletter">
+        <h3 class="widgettitle">Newsletter<span></span></h3>
+        <p>Your about us information would fit here nicely.</p>
+        <form name="frmnewsletter" class="newsletter-form" action="php/subscribe.php" method="post">
+          <input type="email" required="" placeholder="Your Email ID" name="mc_email">
+          <input type="submit" value="Submit" class="dt-sc-button" name="btnsubscribe">
+        </form>
+        <div id="ajax_subscribe_msg"></div>
+      </aside>
+
+      <div class="widget textwidget">
+        <ul class="dt-sc-social-icons">
+          <li class="facebook"><a class="fa fa-facebook" href="#"></a></li>
+          <li class="google"><a class="fa fa-google-plus" href="#"> </a></li>
+          <li class="twitter"><a class="fa fa-twitter" href="#"></a></li>
+          <li class="linkedin"><a class="fa fa-linkedin" href="#"></a></li>
+          <li class="dribbble"><a class="fa fa-dribbble" href="#"></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="copyright">
+    <div class="container">
+      <p> Copyright &copy; 2014, developed by <a href="">BuddhaThemes</a>. All rights reserved. </p>
+    </div>
+  </div>
+</footer> <!-- **Footer Ends** -->
 
 </div> <!-- **Wrapper Ends** -->
 

@@ -99,12 +99,10 @@
                             <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/home" title=""> <span class="menu-icon fa fa-envelope"> </span> Home </a>
 
                             </li>
-                            <li class="current_page_item menu-item-simple-parent menu-item-depth-0"> <a href="index.html" title=""> <span class="menu-icon fa fa-home"> </span> University </a>
+                            <li class="current_page_item menu-item-simple-parent menu-item-depth-0"> <a href="#/universitysclient" title=""> <span class="menu-icon fa fa-home"> </span> Universities </a>
                                 <ul class="sub-menu">
-                                    <li> <a href="#/universitysclient" title=""> list of university </a> </li>
-                                    <li> <a href="index-v3.html" title=""> Home Layout 3 </a> </li>
-                                    <li> <a href="index-v4.html" title=""> Home Layout 4 </a> </li>
-                                    <li> <a href="one-page.html" title=""> One Page Layout </a> </li>
+                                    <li> <a href="#/universitysclient" title=""> list of universities </a> </li>
+
                                 </ul>
                                 <a class="dt-menu-expand">+</a>
                             </li>
@@ -127,38 +125,27 @@
 
     <!-- **Main** -->
     <div id="main">
-        <div class="panel panel-default" ng-init="getUniversitys()">
+        <div class="panel panel-default" ng-init="getSections()">
             <div class="panel-heading">
-                <h3 class="panel-title">Latest Universitys</h3>
+                <h3 class="panel-title">Sections</h3>
             </div>
-            <select ng-model="search.category">
-                <option value="public">public</option>
-                <option value="private">private</option>
-            </select>
-            <select ng-model="search.category1">
-                <option value="medecine">medecine</option>
-                <option value="Computer Science">Computer Science</option>
-                <option value="Architecture and preparatory">Architecture and preparatory</option>
-                <option value="Humanities and Social Sciences">Humanities and Social Sciences</option>
-                <option value=" Literature and language"> Literature and language</option>
-                <option value="Arts, tourism, journalism, sport and activation">Arts, tourism, journalism, sport and activation</option>
 
-            </select>
+
 
             <div class="panel-body">
                 <div class="row">
-                    <div ng-repeat="university in universitys |filter : search">
+                    <div ng-repeat="section in sections |filter : search">
                         <div class="col-md-6">
                             <div class="col-md-6">
-                                <h4>{{university.name}}</h4>
-                                <p>{{university.adresse}}</p>
+                                <h4>{{section.name}}</h4>
+                                <p>{{section.description}}</p>
 
-                                <a class="btn btn-primary" href="#/universitysclient/details/{{university._id}}">View Details</a>
-                                <a class="btn btn-primary" href="#/sectionclient">View Section for this university</a>
+                                <a class="btn btn-primary" href="#/sectionclient/details/{{section._id}}">View Details</a>
+
 
                             </div>
                             <div class="col-md-6">
-                                <img class="thumbnail" src="{{university.image_url}}">
+                                <img class="thumbnail" src="{{section.image_url}}">
                             </div>
                         </div>
                     </div>

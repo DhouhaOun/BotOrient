@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 
 
+
 var universitySchema = mongoose.Schema({
 	name:{
 		type: String,

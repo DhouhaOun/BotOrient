@@ -35,7 +35,9 @@ var facebookBot= require('./server/bot');
 var api = require('./server/api');
 var apiUniversity = require('./server/apiUniversity');
 var apiUser = require('./server/apidiploma');
+var Section = require('./server/Section');
 
+app.use('/apiSection',Section);
 app.use('/api', api);
 app.use('/apiUniversity', apiUniversity);
 
