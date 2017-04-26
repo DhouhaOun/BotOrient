@@ -1,0 +1,7 @@
+#editeur{
+    width: 400px; // La largeur de l'éditeur
+height: 5000px; // La hauteur de l'éditeur
+border: 5px solid black; // Une bordure pour bien voir l'éditeur
+padding: 5px; // Une petite marge intérieure
+overflow: auto; // Cette propriété sert à envoyer le texte à la ligne au cas où il dépasse la largeur définie avant
+}

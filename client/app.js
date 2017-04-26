@@ -1,5 +1,5 @@
 (function() {
-    angular.module("myApp", ["ngRoute","feeds"]);
+    angular.module("myApp", ["ngRoute","feeds","geolocation", "gservice","addCtrl", "queryCtrl"]);
 })();
 
 //modification

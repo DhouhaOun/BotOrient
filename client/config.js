@@ -115,6 +115,17 @@
                     controller:'JobsController',
                     templateUrl: 'views/edit_job.html'
                 })
+                .when('/join', {
+                    controller: 'addCtrl',
+                    templateUrl: 'views/maps/partials/addForm.html'
+
+                    // Find Teammates Control Panel
+                }).when('/find', {
+                controller: 'queryCtrl',
+                templateUrl: 'views/maps/partials/queryForm.html'
+
+                // All else forward to the Join Team Control Panel
+            })
                 .when('/jobs/delete/:id',{
                     controller:'JobsController',
                     templateUrl: 'views/jobs.html'

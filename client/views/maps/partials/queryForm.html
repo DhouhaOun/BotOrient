@@ -1,6 +1,140 @@
+<!DOCTYPE HTML>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js has-loader" ng-app="app"> <!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <title>Bot-Orient</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
 
 
-        <!-- Panel Title -->
+    <link id="default-css" rel="stylesheet" href="style.css" type="text/css">
+    <link id="shortcodes-css" rel="stylesheet" href="css/shortcodes.css" type="text/css">
+    <link id="responsive-css" rel="stylesheet" href="css/responsive.css" type="text/css">
+    <link id="skin-css" rel="stylesheet" href="skins/electricblue/style.css" type="text/css">
+
+    <!-- Additional Stylesheets -->
+    <link href="css/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/component.css" type="text/css">
+    <link href="css/pace-theme-loading-bar.css" rel="stylesheet" media="all" />
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" id="rs-plugin-settings-css"  href="css/settings.css" type="text/css" media="all" />
+
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+
+    <script type="text/javascript">
+        var mytheme_urls = {
+            scroll : 'disable'
+        };
+    </script>
+
+</head>
+
+<body>
+
+<!-- **Wrapper** -->
+<div class="wrapper">
+
+    <div id="loader-wrapper">
+        <div class="loader">
+            <!-- the component -->
+            <div class="pre-loader"></div>
+        </div>
+    </div>
+
+    <!-- **Header Top Bar** -->
+    <div id="bbar-wrapper">
+        <div class="container">
+
+
+            <div class="column dt-sc-one-half alignright">
+                <div class="buttons">
+                    <a href="#login" ng-show="!currentUser" title="">Login <i class="fa fa-caret-right"></i></a>
+                    <a href="#register" ng-show="!currentUser" title="">Register <i class="fa fa-caret-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- **Header Top Bar Ends** -->
+
+    <!-- **Header Wrapper** -->
+    <div id="header-wrapper">
+        <!-- **Header** -->
+        <header id="header" class="header5">
+            <div class="container">
+                <!-- **Logo** -->
+                <div id="logo">
+                    <a href="index.html"> <img src="images/lo.png" alt="logo"> </a>
+                    <h3 style="margin-top:-31px;margin-left:50px;float: right; color:white; "> Bot-Orient</h3>
+                </div><!-- **Logo Ends** -->
+
+                <!-- **Main-Menu Navigation** -->
+                <div id="primary-menu">
+                    <div class="dt-menu-toggle" id="dt-menu-toggle">Menu<span class="dt-menu-toggle-icon"></span></div>
+                    <nav id="main-menu">
+                        <ul id="menu-main-menu" class="menu">
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/home" title=""> <span class="menu-icon fa fa-envelope"> </span> Home </a>
+
+                            </li>
+
+                            </li>
+
+
+
+
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/find" title=""> <span class="menu-icon fa fa-envelope"> </span> Universities Position </a>
+
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/universitysclient" title=""> <span class="menu-icon fa fa-home"> </span> Universities </a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#/universitysclient" title=""> list of universities </a> </li>
+
+                                </ul>
+                                <a class="dt-menu-expand">+</a>
+                            </li>
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#"> <span class="menu-icon fa fa-home"> </span> Diplomas </a>
+                                <ul class="sub-menu">
+                                    <li><a href="#/diplomas/test/genrebts">BTS</a></li>
+                                    <li><a href="#/diplomas/test/genreing">Engineering</a></li>
+                                    <li><a href="#/diplomas/test/genrelicense">Licenses</a></li>
+                                    <li><a href="#/diplomas/test/genremaster">Masters</a></li>
+                                    <li><a href="#">Medical</a></li>
+                                </ul>
+                                <a class="dt-menu-expand">+</a>
+                            </li>
+
+                            <li class="menu-item-simple-parent menu-item-depth-0" ng-show="currentUser"> <a href="#logout" ng-click="logout()">Logout</a></li>
+                            <li class="menu-item-simple-parent menu-item-depth-0" ng-show="currentUser.roles.indexOf('admin') != -1"><a ng-show="currentUser" href="#admin">Admin</a></li>
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/profile" title=""> <span class="menu-icon fa fa-envelope"> </span> Profile </a>
+
+                        </ul>
+
+                    </nav>
+                </div> <!-- **Main-Menu Navigation Ends** -->
+            </div>
+        </header> <!-- **Header Ends** -->
+    </div>
+
+    <!-- Panel Title -->
         <div class="container">
             <div class="header">
 
@@ -15,4 +149,9 @@
 
         <!-- Panel Body -->
 
-</div></div>
+            </div></div></div>
+<div class="copyright">
+    <div class="container">
+        <p> Copyright &copy; 2017, developed by <a href="">PiCrew</a>. All rights reserved. </p>
+    </div>
+</div>

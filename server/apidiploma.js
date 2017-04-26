@@ -1,14 +1,13 @@
 
 var express = require('express');
-var mongoose         = require("mongoose");
-var app = express.Router();
+var router = express.Router();
 
 
 
 Diploma = require('../models/diploma');
-//modification
 
-app.get('/diplomas',function (req,res) {
+
+router.get('/diplomas',function (req,res) {
     Diploma.getDiplomas(function (err, diplomas) {
         if(err){
             throw err;
@@ -16,7 +15,8 @@ app.get('/diplomas',function (req,res) {
         res.json(diplomas);
     })
 });
-app.get('/diplomas/:_id',function (req,res) {
+
+router.get('/diplomas/:_id',function (req,res) {
     Diploma.getDiplomaById(req.params._id, function (err, diploma) {
         if(err){
             throw err;
@@ -25,7 +25,7 @@ app.get('/diplomas/:_id',function (req,res) {
     })
 });
 
-app.post('/diplomas',function (req,res) {
+router.post('/diplomas',function (req,res) {
     var diploma = req.body;
     Diploma.addDiploma(diploma, function (err, diploma) {
         if(err){
@@ -34,7 +34,8 @@ app.post('/diplomas',function (req,res) {
         res.json(diploma);
     })
 });
-app.put('/diplomas/:_id',function (req,res) {
+
+router.put('/diplomas/:_id',function (req,res) {
     var id = req.params._id;
     var diploma = req.body;
     Diploma.updateDiploma(id, diploma, {}, function (err, diploma) {
@@ -45,7 +46,7 @@ app.put('/diplomas/:_id',function (req,res) {
     })
 });
 
-app.delete('/diplomas/:_id',function (req,res) {
+router.delete('/diplomas/:_id',function (req,res) {
     var id = req.params._id;
     Diploma.removeDiploma(id, function (err, diploma) {
         if(err){
@@ -56,28 +57,30 @@ app.delete('/diplomas/:_id',function (req,res) {
 });
 
 
-app.get('/diplomas/genrebts/:genre', function(req, res) {
+
+
+router.get('/diplomas/genrebts/:genre', function(req, res) {
     Diploma.finddiplomasgenre({genre:'BTS'},function (err,diplomas) {
         if(err)
             return res.json(err);
         res.json(diplomas);
     })
 });
-app.get('/diplomas/genrelicense/:genre', function(req, res) {
+router.get('/diplomas/genrelicense/:genre', function(req, res) {
     Diploma.finddiplomasgenrelicense({genre:'Licenses'},function (err,diplomas) {
         if(err)
             return res.json(err);
         res.json(diplomas);
     })
 });
-app.get('/diplomas/genreing/:genre', function(req, res) {
+router.get('/diplomas/genreing/:genre', function(req, res) {
     Diploma.finddiplomasgenreing({genre:'Engineering'},function (err,diplomas) {
         if(err)
             return res.json(err);
         res.json(diplomas);
     })
 });
-app.get('/diplomas/genremasters/:genre', function(req, res) {
+router.get('/diplomas/genremasters/:genre', function(req, res) {
     Diploma.finddiplomasgenremaster({genre:'Masters'},function (err,diplomas) {
         if(err)
             return res.json(err);
@@ -88,5 +91,4 @@ app.get('/diplomas/genremasters/:genre', function(req, res) {
 
 
 
-
-module.exports = app;
+module.exports = router;

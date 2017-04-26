@@ -26,6 +26,12 @@ var Diploma = module.export = mongoose.model('Diploma', diplomaSchema);
 module.exports.getDiplomas = function(callback, limit) {
     Diploma.find(callback).limit(limit);
 };
+
+//Get diploma
+module.exports.getDiplomaById = function(id, callback) {
+    Diploma.findById(id, callback);
+
+};
 module.exports.finddiplomasgenre = function(genre, callback) {
     Diploma.find(genre,callback);
 };
@@ -37,11 +43,6 @@ module.exports.finddiplomasgenremaster = function(genre, callback) {
 };
 module.exports.finddiplomasgenrelicense = function(genre, callback) {
     Diploma.find(genre,callback);
-};
-//Get diploma
-module.exports.getDiplomaById = function(id, callback) {
-    Diploma.findById(id, callback);
-
 };
 
 //ADD diploma

@@ -22,7 +22,7 @@
         <!-- /toggle offscreen menu -->
         <!-- logo -->
         <a class="brand-logo">
-            <span><a href="#admin">Dashborddd</a></span>
+            <span><a href="#admin">Dashbord</a></span>
         </a>
         <a href="#" class="small-menu-visible brand-logo">R</a>
         <!-- /logo -->
@@ -31,8 +31,9 @@
         <span><a href="#feeds">Feeds</a></span></br>
         <span><a href="#diplomas">Diplomas</a></span></br>
         <span><a href="#/universitys/add">University</a></span></br>
-        <span><a href="#/sections">Sections</a></span>
-
+        <span><a href="#/sections">Sections</a></span></br>
+        <span><a href="#/send">SendNews</a></span></br>
+        <span><a href="#/join">Position</a></span></br>
         <ul class="quick-launch-apps hide">
         <li>
 
@@ -65,7 +66,7 @@
           <!-- /logo -->
         </div>
         <ul class="nav navbar-nav hidden-xs">
-          
+
           <li class="navbar-form search-form hide">
             <input type="search" class="form-control search-input" placeholder="Start typing...">
             <div class="search-predict hide">
@@ -120,13 +121,13 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right hidden-xs">
-         
-          
+
+
           <li>
             <a href="javascript:;" class="ripple" data-toggle="dropdown">
               <img src="images/avatar.jpg" class="header-avatar img-circle" alt="user" title="user">
               <span ng-show="currentUser">
-  
+
 {{currentUser.username}}
 
 </span>
@@ -136,21 +137,21 @@
               <li>
                 <a href="#profile">Profil</a>
               </li>
-             
-              
-              
+
+
+
               <li>
                 <a href="#logout" ng-click="logout()">Logout</a>
               </li>
             </ul>
           </li>
-          
+
         </ul>
       </div>
       <!-- /top header -->
       <!-- main area -->
       <div class="main-content">
-        <h2>User List</h2>    
+        <h2>User List</h2>
 <table class="table table-striped">
     <tr>
         <td>&nbsp;</td>
@@ -163,7 +164,7 @@
         <td><button ng-click="add(user)" class="btn btn-primary">&plus;</button>
         <td><button ng-click="update(user)" class="btn btn-success">&check;</button>
     </tr>
-        
+
     </tr>
     <tr ng-repeat="user in users">
         <td>{{user._id}}</td>

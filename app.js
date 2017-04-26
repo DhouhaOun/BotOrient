@@ -21,6 +21,8 @@ app.use(express.static(__dirname+'/client'));
 //app.use(bodyParser.text({type: 'application/json'}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.text());                                     // allows bodyParser to look at raw text
+app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
 multer();
 app.use(session({
     secret: 'this is the secret',
@@ -37,9 +39,10 @@ var apiUniversity = require('./server/apiUniversity');
 var apidiploma = require('./server/apidiploma');
 var Section = require('./server/Section');
 var apiuser =require('./server/user.service.server');
+var apimap = require('./models/app/routes');
 
 var apisub = require('./server/apisub');
-
+app.use('/app',apimap);
 app.use('/apisub', apisub);
 app.use('/apiSection',Section);
 app.use('/api', api);

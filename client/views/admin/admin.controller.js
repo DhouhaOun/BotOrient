@@ -13,6 +13,7 @@
         $scope.add    = add;
         $scope.select = select;
 
+
         function init() {
             UserService
                 .findAllUsers()

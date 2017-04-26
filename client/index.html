@@ -17,6 +17,13 @@
   <link rel="stylesheet" href="styles/sli.css">
   <link rel="stylesheet" href="styles/animate.css">
   <link rel="stylesheet" href="styles/app.css">
+  <!-- Google Maps API -->
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7FXrAYhcbFEdhF6tw1gWQHw9cxSWNjeY"></script>
+  <script src="./bower_components/holderjs/holder.js"></script>
+  <!-- Google Maps API -->
+
+
   <link rel="stylesheet" href="styles/app.skins.css">
   <script src="js/jquery-1.11.2.js"></script>
   <script src="js/bootstrap.js"></script>
@@ -25,6 +32,8 @@
   <script src="angular-feeds/angular-feeds.min.js"></script>
 
   <script src="js/angular-route.js"></script>
+  <script src="./bower_components/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
+
   <script src="app.js"></script>
   <script src="scripts/my-feeds.js"></script>
   <script src="config.js"></script>
@@ -39,6 +48,11 @@
   <script src="controllers/jobController.js"></script>
   <script src="controllers/universitys.js"></script>
   <script src="controllers/section.js"></script>
+  <script src="views/maps/js/addCtrl.js"></script>
+  <script src="views/maps/js/queryCtrl.js"></script>
+  <script src="views/maps/js/gservice.js"></script>
+  <script src="views/sendnews/news.controller.js"></script>
+  <script src="views/sendnews/sub.controller.js"></script>
 
 </head>
 <body ng-app="myApp">
@@ -72,8 +86,8 @@
 <!-- /chat -->
 </div>
 </div>
+<script src="./bower_components/modernizr/bin/modernizr"></script>
 
-<script src="scripts/helpers/modernizr.js"></script>
 <script type="text/javascript" src="https://embed.modernapp.co/chat?code=6d9a68fcdc2f4c5e1bb33767b396b55a"></script>
 
 <script src="vendor/fastclick/lib/fastclick.js"></script>

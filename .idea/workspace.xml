@@ -2,18 +2,489 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6240ccf9-b7f2-42d0-8527-f7fd79079d27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/add.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/news.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/news.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/sub.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/apisub.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/user.service.server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo vertical big.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo vertical medium.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo vertical small.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo.eps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr-2-Logo-vertical-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr-2-Logo-vertical-medium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr-2-Logo-vertical-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/dist/angularjs-geolocation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/angularjs-geolocation/src/geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/holder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/renderers/canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/renderers/svg-dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/renderers/svg-text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/scenegraph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/vendor/ondomready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/vendor/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/lib/vendor/querystring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/meteor/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/src/meteor/shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/detach.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/phantom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/renderperf/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/renderperf/fps.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/renderperf/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/renderperf/releases/holder-master/holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/renderperf/setup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/renderperf/testcase.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/holderjs/test/runner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.jshintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/appveyor.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/bin/modernizr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/a/download.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/ambientlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/applicationcache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/audio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/audio/loop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/audio/preload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/audio/webaudio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/battery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/battery/lowbattery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/canvas/blending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/canvas/todataurl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/canvas/winding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/canvastext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/contenteditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/contextmenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/cookies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/cors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/crypto/getrandomvalues.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/animations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/appearance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/backgroundblendmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/backgroundcliptext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/backgroundposition-shorthand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/backgroundposition-xy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/backgroundrepeat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/backgroundsize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/backgroundsizecover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/borderimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/borderradius.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/boxshadow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/boxsizing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/calc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/checked.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/chunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/cubicbezierrange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/displayrunin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/displaytable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/ellipsis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/escape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/exunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/flexbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/flexboxlegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/flexboxtweener.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/flexwrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/fontface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/generatedcontent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/gradients.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/hsla.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/hyphens.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/invalid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/lastchild.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/mask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/mediaqueries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/multiplebgs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/nthchild.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/objectfit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/opacity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/overflow-scrolling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/pointerevents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/positionsticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/pseudoanimations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/pseudotransitions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/reflections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/regions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/remunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/rgba.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/scrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/shapes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/siblinggeneral.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/subpixelfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/supports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/target.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/textalignlast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/textshadow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/transforms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/transforms3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/transformstylepreserve3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/transitions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/userselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/vhunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/vmaxunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/vminunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/vwunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/will-change.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/css/wrapflow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/custom-protocol-handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/customevent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dataview-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dom/classlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dom/createElement-attrs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dom/dataset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dom/documentfragment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dom/hidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dom/microdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/dom/mutationObserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/datalist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/details.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/output.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/picture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/progress-meter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/elem/unknown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/emoji.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/specification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/strictmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/syntax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es5/undefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/contains.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/generators.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/promises.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/es6/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/event/deviceorientation-motion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/event/oninput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/eventlistener.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/exif-orientation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/file/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/file/filesystem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/capture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/fileinputdirectory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/formattribute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/inputnumber-l10n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/requestautocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/forms/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/fullscreen-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/gamepad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/hashchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/hiddenscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/history.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/htmlimports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/ie8compat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/iframe/sandbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/iframe/seamless.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/iframe/srcdoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/apng.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/jpegxr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/sizes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/srcset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/webp-alpha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/webp-animation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/webp-lossless.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/img/webp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/indexeddb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/indexeddbblob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/input/formaction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/input/formenctype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/input/formmethod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/input/formtarget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/inputsearchevent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/inputtypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/intl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/lists-reversed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/mathml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/beacon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/eventsource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/fetch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/xhr-responsetype-arraybuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/xhr-responsetype-blob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/xhr-responsetype-document.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/xhr-responsetype-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/xhr-responsetype-text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/xhr-responsetype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/network/xhr2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/notification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/pagevisibility-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/performance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/pointerevents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/pointerlock-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/postmessage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/proximity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/queryselector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/quota-management-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/requestanimationframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/script/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/script/defer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/serviceworker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/speech/speech-recognition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/speech/speech-synthesis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/storage/localstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/storage/sessionstorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/storage/websqldatabase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/style/scoped.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/svg/asimg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/svg/clippaths.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/svg/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/svg/foreignobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/svg/inline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/svg/smil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/templatestrings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/textarea/maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/touchevents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/typed-arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/unicode-range.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/unicode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/url/bloburls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/url/data-uri.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/url/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/userdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/vibration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/video/autoplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/video/loop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/video/preload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/vml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/web-intents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/webanimations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/webgl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/webgl/extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/webrtc/datachannel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/webrtc/getusermedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/webrtc/peerconnection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/websockets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/websockets/binary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/window/framed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/window/matchmedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/workers/blobworkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/workers/dataworkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/workers/sharedworkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/workers/transferables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/feature-detects/workers/webworkers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/build-query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/config-all.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/generate-banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/lib/polyfills.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/media/Modernizr 2 Logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/Modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/ModernizrProto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/addTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/atRule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/contains.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/createElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/cssToDOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/cssomPrefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/docElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/domPrefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/domToCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/fnBind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/generate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/getBody.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/hasEvent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/hasOwnProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/html5printshiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/injectElementWithStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/inputElem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/isSVG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/mStyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/modElem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/mq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/nativeTestProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/omPrefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/prefixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/prefixedCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/prefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/roundedEquals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/setClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testAllProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testDOMProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testPropsAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testRunner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/testXhrType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/src/toStringFn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/iframe.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/bools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/caniuse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/prefixed-atRule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/prefixed-autobind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/prefixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/prefixedCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/integration/svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/sauce-browsers.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/setup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/Modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/ModernizrProto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/addTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/atRule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/contains.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/createElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/cssToDOM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/cssomPrefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/docElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/domPrefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/domToCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/fnBind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/generate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/getBody.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/hasEvent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/hasOwnProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/html5printshiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/injectElementWithStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/inputElem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/mStyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/modElem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/mq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/nativeTestProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/omPrefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/prefixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/prefixedCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/prefixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/roundedEquals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/setClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testAllProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testDOMProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testProps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testPropsAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testRunner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/testXhrType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/src/toStringFn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/svgUnit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/browser/unit.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/cleanup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/img/integration.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/img/unit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/js/lib/sinon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/js/lib/uaparser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/mocks/lib/build-query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/mocks/lib/metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/node/lib/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/node/lib/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/node/lib/metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/node/lib/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/universal/lib/build-hash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bower_components/modernizr/test/universal/lib/generate-banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/maps/js/addCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/maps/js/gservice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/maps/js/queryCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/maps/partials/addForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/maps/partials/queryForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/app/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/app/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.js" afterPath="$PROJECT_DIR$/client/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/config.js" afterPath="$PROJECT_DIR$/client/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/services/user.services.client.js" afterPath="$PROJECT_DIR$/client/services/user.services.client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/my-feeds.json" afterPath="$PROJECT_DIR$/client/my-feeds.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/editeur.js" afterPath="$PROJECT_DIR$/client/styles/editeur.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/style.css" afterPath="$PROJECT_DIR$/client/styles/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/admin/admin.controller.js" afterPath="$PROJECT_DIR$/client/views/admin/admin.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/admin/admin.view.html" afterPath="$PROJECT_DIR$/client/views/admin/admin.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/diploma/diplomas.html" afterPath="$PROJECT_DIR$/client/views/diploma/diplomas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/diploma/diplomas.js" afterPath="$PROJECT_DIR$/client/views/diploma/diplomas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/diploma/diplomeing.html" afterPath="$PROJECT_DIR$/client/views/diploma/diplomeing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/diploma/diplomelicense.html" afterPath="$PROJECT_DIR$/client/views/diploma/diplomelicense.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/diploma/diplomemaster.html" afterPath="$PROJECT_DIR$/client/views/diploma/diplomemaster.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/diploma/edit_diploma.html" afterPath="$PROJECT_DIR$/client/views/diploma/edit_diploma.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/home/home.view.html" afterPath="$PROJECT_DIR$/client/views/home/home.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/sendnews/news.view.html" afterPath="$PROJECT_DIR$/client/views/sendnews/news.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/db.js" afterPath="$PROJECT_DIR$/models/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/diploma.js" afterPath="$PROJECT_DIR$/models/diploma.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/apidiploma.js" afterPath="$PROJECT_DIR$/server/apidiploma.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,38 +503,83 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.services.client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/services/user.services.client.js">
+      <file leaf-file-name="addForm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/maps/partials/addForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="114">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="35" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/config.js">
+      <file leaf-file-name="diplomas.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="223" column="0" lean-forward="true" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+            <state relative-caret-position="986">
+              <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.view.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/views/home/home.view.html">
+      <file leaf-file-name="admin.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/admin/admin.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="450" column="7" lean-forward="false" selection-start-line="450" selection-start-column="7" selection-end-line="450" selection-end-column="7" />
+            <state relative-caret-position="-455">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/sendnews/add.view.html">
+      <file leaf-file-name="my-feeds.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/my-feeds.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diplomas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2095">
+              <caret line="30" column="58" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/admin/admin.view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="152" column="32" lean-forward="true" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+              <folding>
+                <element signature="e#5161#5167#1" expanded="true" />
+                <element signature="e#5709#5715#0" expanded="true" />
+                <element signature="e#5793#5800#0" expanded="true" />
+                <element signature="e#5943#5949#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/login/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -72,31 +588,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apidiploma.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/apidiploma.js">
+      <file leaf-file-name="login.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="289">
+              <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="universitys.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/universitys.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="-770">
+              <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -108,12 +614,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>uni</find>
       <find>app</find>
       <find>5000</find>
       <find>port</find>
@@ -143,6 +650,7 @@
       <find>universit</find>
       <find>universitysclient</find>
       <find>view</find>
+      <find>uni</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,22 +659,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/app_test.js" />
-        <option value="$PROJECT_DIR$/views/index.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/views/index.twig" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/client/views/universitys.js" />
-        <option value="$PROJECT_DIR$/models/db.js" />
         <option value="$PROJECT_DIR$/client/services/user.services.client.js" />
         <option value="$PROJECT_DIR$/client/scripts/my-feeds.js" />
-        <option value="$PROJECT_DIR$/client/views/diploma/diplomas.html" />
         <option value="$PROJECT_DIR$/server/services/apidiploma.js" />
         <option value="$PROJECT_DIR$/server/apiUniversity.js" />
         <option value="$PROJECT_DIR$/server/api.js" />
-        <option value="$PROJECT_DIR$/server/apidiploma.js" />
-        <option value="$PROJECT_DIR$/client/app.js" />
         <option value="$PROJECT_DIR$/client/views/mm.html" />
         <option value="$PROJECT_DIR$/client/views/edit_university.html" />
         <option value="$PROJECT_DIR$/client/views/add_university.html" />
@@ -174,7 +672,6 @@
         <option value="$PROJECT_DIR$/client/views/job_details.html" />
         <option value="$PROJECT_DIR$/client/views/add_job.html" />
         <option value="$PROJECT_DIR$/server/Section.js" />
-        <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/views/app.js" />
         <option value="$PROJECT_DIR$/client/controllers/jobController.js" />
         <option value="$PROJECT_DIR$/client/controllers/universitys.js" />
@@ -187,14 +684,32 @@
         <option value="$PROJECT_DIR$/client/views/section_client.html" />
         <option value="$PROJECT_DIR$/client/views/login/login.view.html" />
         <option value="$PROJECT_DIR$/client/views/client_details.html" />
-        <option value="$PROJECT_DIR$/client/views/admin/admin.view.html" />
         <option value="$PROJECT_DIR$/client/views/jobs.html" />
         <option value="$PROJECT_DIR$/client/views/universitys.html" />
         <option value="$PROJECT_DIR$/client/views/section.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/styles/editeur.js" />
+        <option value="$PROJECT_DIR$/client/styles/style.css" />
+        <option value="$PROJECT_DIR$/models/db.js" />
+        <option value="$PROJECT_DIR$/client/views/sendnews/news.view.html" />
+        <option value="$PROJECT_DIR$/models/diploma.js" />
+        <option value="$PROJECT_DIR$/server/apidiploma.js" />
+        <option value="$PROJECT_DIR$/client/views/diploma/diplomas.js" />
+        <option value="$PROJECT_DIR$/client/views/diploma/diplomeing.html" />
+        <option value="$PROJECT_DIR$/client/views/diploma/diplomelicense.html" />
+        <option value="$PROJECT_DIR$/client/views/diploma/diplomemaster.html" />
+        <option value="$PROJECT_DIR$/client/views/diploma/edit_diploma.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/client/app.js" />
         <option value="$PROJECT_DIR$/client/config.js" />
+        <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/views/home/home.view.html" />
+        <option value="$PROJECT_DIR$/client/views/maps/partials/queryForm.html" />
+        <option value="$PROJECT_DIR$/client/views/maps/partials/addForm.html" />
+        <option value="$PROJECT_DIR$/client/views/diploma/diplomas.html" />
+        <option value="$PROJECT_DIR$/client/views/admin/admin.view.html" />
+        <option value="$PROJECT_DIR$/client/views/admin/admin.controller.js" />
+        <option value="$PROJECT_DIR$/client/my-feeds.json" />
       </list>
     </option>
   </component>
@@ -212,10 +727,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1373" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -233,6 +750,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,91 +806,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BotOrient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BotOrientation/BotOrient-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -380,21 +821,22 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dhouha\BotOrient\server" />
-      <recent name="C:\Users\dhouha\BotOrient\client\views" />
-      <recent name="C:\Users\dhouha\BotOrient\client" />
-      <recent name="C:\Users\WAEL\BotOrient\client\controllers" />
-      <recent name="C:\Users\WAEL\BotOrient\client\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\botaii\botaii\models" />
       <recent name="C:\botaii\botaii\server" />
       <recent name="C:\botaii\botaii\server\mod" />
       <recent name="C:\botaii\botaii\server\services" />
       <recent name="C:\botaii\botaii" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhouha\BotOrient\client" />
+      <recent name="C:\Users\dhouha\BotOrient\models" />
+      <recent name="C:\Users\dhouha\BotOrient\client\views" />
+      <recent name="C:\Users\dhouha\BotOrient\server" />
+      <recent name="C:\Users\WAEL\BotOrient\client\controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -508,33 +950,47 @@
       <workItem from="1492549314582" duration="446000" />
       <workItem from="1492700810146" duration="15727000" />
       <workItem from="1493113643854" duration="425000" />
+      <workItem from="1493139843170" duration="727000" />
+      <workItem from="1493141135233" duration="621000" />
+      <workItem from="1493218259472" duration="8468000" />
+      <workItem from="1493231727225" duration="1927000" />
+      <workItem from="1493246010327" duration="3783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100892000" />
+    <option name="totallyTimeSpent" value="116418000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1373" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29029852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29138577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3438486" sideWeight="0.5088106" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31072554" sideWeight="0.49118942" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30932897" sideWeight="0.49118942" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,168 +1006,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/login/login.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/vendor/perfect-scrollbar/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user/user.model.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/admin/admin.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/css/bootstrap-theme.min.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/skins/red/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/layerslider/js/greensock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="13" column="1097" lean-forward="false" selection-start-line="13" selection-start-column="1097" selection-end-line="13" selection-end-column="1097" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/edit_university.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/edit_job.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/job_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="13" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/add_university.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1226">
-          <caret line="81" column="13" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/add_job.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/app.js" />
-    <entry file="file://$PROJECT_DIR$/server/bot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/jobController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/apiUniversity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/add_section.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -723,14 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,22 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
           <caret line="164" column="6" lean-forward="true" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,14 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="101" column="197" lean-forward="false" selection-start-line="101" selection-start-column="197" selection-end-line="101" selection-end-column="197" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/admin/admin.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="32" column="68" lean-forward="false" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -825,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8840">
           <caret line="522" column="7" lean-forward="false" selection-start-line="522" selection-start-column="7" selection-end-line="522" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,15 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/universitys.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,15 +1108,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="79" column="49" lean-forward="false" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/services/user.services.client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="714">
           <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,23 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/apidiploma.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,6 +1129,150 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/subscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/editeur.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/sendnews/news.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2941">
+          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/home/home2.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/diploma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="2" lean-forward="false" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/apidiploma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/home/home.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomebts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomeing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomelicense.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomemaster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/diploma/edit_diploma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/maps/js/addCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/app/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -903,15 +1280,119 @@
     <entry file="file://$PROJECT_DIR$/client/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="223" column="0" lean-forward="true" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/bower_components/json3/lib/json3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/home/home.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="450" column="7" lean-forward="false" selection-start-line="450" selection-start-column="7" selection-end-line="450" selection-end-column="7" />
+        <state relative-caret-position="106">
+          <caret line="278" column="8" lean-forward="false" selection-start-line="278" selection-start-column="8" selection-end-line="282" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/maps/partials/queryForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="156" column="6" lean-forward="false" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#header#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6611#6617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/maps/partials/addForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="35" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/universitys.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2095">
+          <caret line="30" column="58" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/login/login.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/admin/admin.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/my-feeds.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/admin/admin.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="152" column="32" lean-forward="true" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+          <folding>
+            <element signature="e#5161#5167#1" expanded="true" />
+            <element signature="e#5709#5715#0" expanded="true" />
+            <element signature="e#5793#5800#0" expanded="true" />
+            <element signature="e#5943#5949#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -2,12 +2,12 @@
   {
     "title": "jobs",
     "url": "http://www.keejob.com/rss/jobs/",
-    "count": 100
+    "count": 10
   },
   {
     "title": "Orientation News",
     "url": "http://www.orientation-pour-tous.fr/spip.php?page=rss",
-    "count": 100
+    "count": 10
   }
 
 ]
