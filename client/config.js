@@ -1,6 +1,8 @@
-(function() {
-    angular.module("myApp")
-        .config(function($routeProvider, $httpProvider) {
+var myApp=angular.module("myApp",["ngRoute",'angularUtils.directives.dirPagination'])
+    .config(configFN);
+//(function() {
+// angular.module("myApp")
+function configFN($routeProvider){
             $routeProvider
                 .when('/home', {
                     templateUrl: 'views/home/home.view.html',
@@ -15,6 +17,10 @@
                     resolve: {
                         loggedin: checkLoggedin
                     }
+                })
+             .when('/pagin',{
+
+                    templateUrl:"views/pagin.html"
                 })
                 .when('/admin', {
                     templateUrl: 'views/admin/admin.view.html',
@@ -165,7 +171,7 @@
                 .otherwise({
                     redirectTo: '/login'
                 });
-        });
+};
 
     var checkAdmin = function($q, $timeout, $http, $location, $rootScope)
     {
@@ -230,5 +236,5 @@
     };
 
 
-})();
+
 
