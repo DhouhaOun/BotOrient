@@ -1,0 +1,70 @@
+<div class="container">
+<div class="header">
+
+
+</div>
+<!-- Map and Side Panel -->
+<div class="row content">
+    <!-- Google Map -->
+    <div class="col-md-7">
+        <div id="map" style="width:1100px; height:645px"></div>
+    </div>
+    <!-- Side Panel -->
+</div>
+    <div class="row content">
+        <!-- Creates Main Panel -->
+        <div class="panel panel-default">
+
+            <!-- Panel Title -->
+
+
+            <!-- Panel Body -->
+            <div class="panel-body">
+
+                <!-- Creates Form (novalidate disables HTML validation, Angular will control) -->
+                <form name ="addForm" novalidate>
+
+                    <!-- Text Boxes and Other User Inputs. Note ng-model binds the values to Angular $scope -->
+                    <div class="form-group">
+                        <label for="name">name <span class="badge">All fields required</span></label>
+                        <input type="text" class="form-control" id="name" placeholder="OldandGold" ng-model="formData.name" required>
+                    </div>
+                    <label class="radio control-label">Gender</label>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="radiopublic" value="public" ng-model="formData.gender">
+                            public
+                        </label>
+                    </div>
+                    <div class="radio" required>
+                        <label>
+                            <input type="radio" name="optionsRadios" id="radioprivate" value="private" ng-model="formData.gender">
+                            private
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="radioother" value="What's it to ya?" ng-model="formData.gender">
+                            What's it to ya?
+                        </label>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="latitude">Latitude</label>
+                        <input type="text" class="form-control" id="latitude" value="36.393" ng-model="formData.latitude" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="longitude">Longitude</label>
+                        <input type="text" class="form-control" id="longitude" value="10.009" ng-model="formData.longitude" required>
+                    </div>
+
+
+                    <!-- Submit button. Note that its tied to createUser() function from addCtrl. Also note ng-disabled logic which prevents early submits.  -->
+                    <button type="submit" class="btn btn-danger btn-block" ng-click="createUniver()" ng-disabled="addForm.$invalid">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
