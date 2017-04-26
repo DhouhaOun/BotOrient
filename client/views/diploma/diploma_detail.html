@@ -1,3 +1,150 @@
+h1>Admin</h1>
+
+<div class="app layout-fixed-header">
+    <!-- sidebar panel -->
+    <div class="sidebar-panel offscreen-left">
+        <div class="brand">
+
+            <!-- toggle small sidebar menu -->
+            <a href="javascript:;" class="toggle-apps hidden-xs" data-toggle="quick-launch">
+                <i class=""></i>
+            </a>
+
+            <!-- /toggle small sidebar menu -->
+            <!-- toggle offscreen menu -->
+            <div class="toggle-offscreen">
+                <a href="javascript:;" class="visible-xs hamburger-icon" data-toggle="offscreen" data-move="ltr">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <!-- /toggle offscreen menu -->
+            <!-- logo -->
+            <a class="brand-logo">
+                <span><a href="#admin">Dashbord</a></span></a>
+            </a>
+            <a href="#" class="small-menu-visible brand-logo">R</a>
+            <!-- /logo -->
+        </div>
+        <span><a href="#feeds">Feeds</a></span></br>
+        <span><a href="#diplomas">diplomas</a></span>
+        <ul class="quick-launch-apps hide">
+            <li>
+
+                <a href="#admin">
+                    <i class="icon-compass"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>      <!-- /static -->
+        </ul>
+        </nav>
+        <!-- /main navigation -->
+    </div>
+    <!-- /sidebar panel -->
+    <!-- content panel -->
+    <div class="main-panel">
+        <!-- top header -->
+        <div class="header navbar">
+            <div class="brand visible-xs">
+                <!-- toggle offscreen menu -->
+                <div class="toggle-offscreen">
+                    <a href="javascript:;" class="hamburger-icon visible-xs" data-toggle="offscreen" data-move="ltr">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <!-- /toggle offscreen menu -->
+                <!-- logo -->
+                <a class="brand-logo">
+                    <span><a href="#home">Home</a></span>
+                </a>
+                <!-- /logo -->
+            </div>
+            <ul class="nav navbar-nav hidden-xs">
+
+                <li class="navbar-form search-form hide">
+                    <input type="search" class="form-control search-input" placeholder="Start typing...">
+                    <div class="search-predict hide">
+                        <a href="#">Searching for 'purple rain'</a>
+                        <div class="heading">
+                            <span class="title">People</span>
+                        </div>
+                        <ul class="predictive-list">
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face1.jpg" class="img-circle" alt="">
+                                    <span>Tammy Carpenter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face2.jpg" class="img-circle" alt="">
+                                    <span>Catherine Moreno</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face3.jpg" class="img-circle" alt="">
+                                    <span>Diana Robertson</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/face4.jpg" class="img-circle" alt="">
+                                    <span>Emma Sullivan</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="heading">
+                            <span class="title">Page posts</span>
+                        </div>
+                        <ul class="predictive-list">
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/unsplash/img2.jpeg" class="img-rounded" alt="">
+                                    <span>The latest news for cloud-based developers </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="avatar" href="#">
+                                    <img src="images/unsplash/img2.jpeg" class="img-rounded" alt="">
+                                    <span>Trending Goods of the Week</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+
+
+                <li>
+                    <a href="javascript:;" class="ripple" data-toggle="dropdown">
+                        <img src="images/avatar.jpg" class="header-avatar img-circle" alt="user" title="user">
+                        <span ng-show="currentUser">
+
+{{currentUser.username}}
+
+</span>
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#profile">Profil</a>
+                        </li>
+
+
+
+                        <li>
+                            <a href="#logout" ng-click="logout()">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
 <a class="btn btn-danger" href="#/diplomas">Go Back</a>
 <div class="panel panel-success" ng-init="getDiploma()">
     <div class="panel-heading" style="color: white"><strong>{{diploma.title}}</strong></div>
@@ -36,3 +183,4 @@
         </div>
     </div>
 </div>
+    </div></div>

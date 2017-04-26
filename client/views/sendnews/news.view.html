@@ -1,0 +1,35 @@
+&
+<div class="app signin usersession">
+    <div class="session-wrapper">
+      <div class="page-height-o row-equal align-middle">
+        <div class="column">
+          <div class="card bg-white no-border">
+            <div class="card-block">
+            <div ng-if="error" class="alert alert-danger">
+  {{error}}
+</div>
+              
+                <div class="text-center m-b">
+                  <h4 class="text-uppercase">Send news</h4>
+               
+                </div>
+
+
+<form ng-submit="send()">
+<div class="form-inputs">
+<label class="text-uppercase">Your Subject</label>
+<input  ng-model="subject"  class="form-control" placeholder="subject" required />
+<label class="text-uppercase">Your text</label>
+<input  ng-model="text"  class="form-control" placeholder="text"  required/>
+
+</div>
+<button  type="submit" class="btn btn-primary btn-block">Send</button><br/>
+
+{{message}}
+</div>
+</form>
+            
+          </div>
+        </div>
+      </div>
+    </div>

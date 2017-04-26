@@ -11,7 +11,8 @@
             findAllUsers: findAllUsers,
             deleteUser: deleteUser,
             updateUser: updateUser,
-            createUser: createUser
+            createUser: createUser,
+            send:send
         };
         return api;
 
@@ -41,6 +42,9 @@
 
         function login(user) {
             return $http.post("/api/login", user);
+        }
+        function send(subject,text) {
+            return $http.post("/api/send?text="+text+"&subject="+subject);
         }
     }
 })();

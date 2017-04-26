@@ -177,241 +177,273 @@
   <!-- **Primary** -->
 
   <div class="dt-sc-hr-invisible-medium"></div>
-  <div class="dt-sc-clear"></div>
+  <form class="form-horizontal" id="form" ng-submit="subscribe()" novalidate>
 
-</div>
+    <fieldset>
+      <div class="form-group">
 
 
 
+      </div>
 
 
 
 
 
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="thumbnail center well well-small text-center">
+              <h2>Newsletter</h2>
 
+              <p>Subscribe to our weekly Newsletter and stay tuned.</p>
 
+              <form action="" method="post">
+                <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
+                  <input type="text" class="form-control" id="input1"  ng-model="sub.email" placeholder="your@email.com" data-smk-msg="Please fill out this field" required>
 
 
+                </div>
+                <br />
+                <input type="submit" value="Subscribe Now!" class="btn btn-large" />
+              </form>
+              <div class="dt-sc-clear"></div>
 
 
+            </div>
 
 
 
-<div class="dt-sc-hr-invisible"></div>
-<div class="dt-sc-clear"></div>
 
-<div class="fullwidth-section" style="background-color:#4b5a72;" >
-  <div class="fullwidth-bg">
-    <div class="container">
-      <div class="dt-sc-hr-invisible"></div>
 
-      <div class="dt-sc-clear"></div>
 
-    </div>
-  </div>
-</div>
 
-<div class="dt-sc-hr-invisible-medium"></div>
-<div class="dt-sc-clear"></div>
 
-<div class="fullwidth-section">
-  <div class="fullwidth-bg">
-    <div class="container">
 
 
 
-      <div class="dt-sc-clear"></div>
 
 
 
-    </div>
-  </div>
-</div>
 
-</div> <!-- **Primary Ends** -->
-</section>  <!-- **Content Main Ends** -->
 
-</div> <!-- **Main Ends** -->
-<div class="copyright">
-  <div class="container">
-    <p> Copyright &copy; 2017, developed by <a href="">PiCrew</a>. All rights reserved. </p>
-  </div>
-</div>
-<!-- **Footer** -->
 
+            <div class="dt-sc-hr-invisible"></div>
+            <div class="dt-sc-clear"></div>
 
-</div> <!-- **Wrapper Ends** -->
+            <div class="fullwidth-section" style="background-color:#4b5a72;" >
+              <div class="fullwidth-bg">
+                <div class="container">
+                  <div class="dt-sc-hr-invisible"></div>
 
+                  <div class="dt-sc-clear"></div>
 
+                </div>
+              </div>
+            </div>
 
+            <div class="dt-sc-hr-invisible-medium"></div>
+            <div class="dt-sc-clear"></div>
 
+            <div class="fullwidth-section">
+              <div class="fullwidth-bg">
+                <div class="container">
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-<script type="text/javascript" src="js/pace.min.js"></script>
 
-<script type="text/javascript" src="js/jquery.sticky.js"></script>
-<script type="text/javascript" src="js/jquery.dlmenu.js"></script>
-<script type="text/javascript" src="js/inview.js"></script>
-<script type="text/javascript" src="js/jquery.tabs.min.js"></script>
-<script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
-<script type="text/javascript" src="js/jquery.donutchart.js"></script>
-<script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>
-<script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
 
-<script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 
-<script type="text/javascript" src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.js"></script>
 
-<script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
-<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
 
-<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-<script src="js/bootstrap.min.js"></script>
+                </div>
+              </div>
+            </div>
 
-<script type="text/javascript" src="js/revslider/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="js/revslider/jquery.themepunch.revolution.min.js"></script>
+          </div> <!-- **Primary Ends** -->
+          </section>  <!-- **Content Main Ends** -->
 
-<script type="text/javascript">
-
-    /******************************************
-     -	PREPARE PLACEHOLDER FOR SLIDER	-
-     ******************************************/
-
-
-    var setREVStartSize = function() {
-        var	tpopt = new Object();
-        tpopt.startwidth = 1170;
-        tpopt.startheight = 900;
-        tpopt.container = jQuery('#rev_slider_24_1');
-        tpopt.fullScreen = "on";
-        tpopt.forceFullWidth="off";
-
-        tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
-    };
-
-    /* CALL PLACEHOLDER */
-    setREVStartSize();
-
-
-    var tpj=jQuery;
-    tpj.noConflict();
-    var revapi24;
-
-    tpj(document).ready(function() {
-
-        if(tpj('#rev_slider_24_1').revolution == undefined)
-            revslider_showDoubleJqueryError('#rev_slider_24_1');
-        else
-            revapi24 = tpj('#rev_slider_24_1').show().revolution(
-                {
-                    dottedOverlay:"none",
-                    delay:9000,
-                    startwidth:1170,
-                    startheight:900,
-                    hideThumbs:200,
-
-                    thumbWidth:100,
-                    thumbHeight:50,
-                    thumbAmount:3,
-
-                    navigationType:"none",
-                    navigationArrows:"solo",
-                    navigationStyle:"round",
-
-                    touchenabled:"on",
-                    onHoverStop:"off",
-
-                    swipe_velocity: 0.7,
-                    swipe_min_touches: 1,
-                    swipe_max_touches: 1,
-                    drag_block_vertical: false,
-
-                    keyboardNavigation:"off",
-
-                    navigationHAlign:"center",
-                    navigationVAlign:"bottom",
-                    navigationHOffset:0,
-                    navigationVOffset:20,
-
-                    soloArrowLeftHalign:"left",
-                    soloArrowLeftValign:"center",
-                    soloArrowLeftHOffset:20,
-                    soloArrowLeftVOffset:0,
-
-                    soloArrowRightHalign:"right",
-                    soloArrowRightValign:"center",
-                    soloArrowRightHOffset:20,
-                    soloArrowRightVOffset:0,
-
-                    shadow:0,
-                    fullWidth:"off",
-                    fullScreen:"on",
-
-                    spinner:"spinner0",
-
-                    stopLoop:"off",
-                    stopAfterLoops:-1,
-                    stopAtSlide:-1,
-                    shuffle:"off",
-
-                    forceFullWidth:"off",
-                    fullScreenAlignForce:"off",
-                    minFullScreenHeight:"",
-                    hideTimerBar:"on",
-                    hideThumbsOnMobile:"off",
-                    hideNavDelayOnMobile:1500,
-                    hideBulletsOnMobile:"off",
-                    hideArrowsOnMobile:"off",
-                    hideThumbsUnderResolution:0,
-
-                    fullScreenOffsetContainer: "",
-                    fullScreenOffset: "",
-                    hideSliderAtLimit:0,
-                    hideCaptionAtLimit:0,
-                    hideAllCaptionAtLilmit:0,
-                    startWithSlide:0
-                });
-
-    });	/*ready*/
-
-</script>
-
-<script type="text/javascript">
-
-    jQuery(window).load(function() {
-
-        //PAGE SLIDER...
-        if(jQuery('.right-slide').length) {
-            jQuery('.right-slide').each(function(){
-                var $this = jQuery(this).find('.page-slider');
-                $this.carouFredSel({
-                    responsive: true,
-                    auto: false,
-                    width: '100%',
-                    height: 'auto',
-                    scroll: {
-                        fx: "uncover-fade",
-                        duration: 800
-                    },
-                    items: { width: $this.find("li").width(),  visible: { min: 1, max: 1 } },
-                    pagination: {
-                        container: ".right-slide-nav-links",
-                        anchorBuilder: false
-                    }
-                });
-            });
-        }
-
-    });
-
-</script>
+        </div>
+        <!-- **Main Ends** -->
+        <div class="copyright">
+          <div class="container">
+            <p> Copyright &copy; 2017, developed by <a href="">PiCrew</a>. All rights reserved. </p>
+          </div>
+        </div>
+        <!-- **Footer** -->
+
+
+      </div> <!-- **Wrapper Ends** -->
+
+
+
+
+
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+      <script type="text/javascript" src="js/pace.min.js"></script>
+
+      <script type="text/javascript" src="js/jquery.sticky.js"></script>
+      <script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+      <script type="text/javascript" src="js/inview.js"></script>
+      <script type="text/javascript" src="js/jquery.tabs.min.js"></script>
+      <script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
+      <script type="text/javascript" src="js/jquery.donutchart.js"></script>
+      <script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>
+      <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
+
+      <script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
+      <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+      <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+      <script type="text/javascript" src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
+      <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+      <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+
+      <script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
+      <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+
+      <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <script type="text/javascript" src="js/revslider/jquery.themepunch.tools.min.js"></script>
+      <script type="text/javascript" src="js/revslider/jquery.themepunch.revolution.min.js"></script>
+
+      <script type="text/javascript">
+
+          /******************************************
+           -	PREPARE PLACEHOLDER FOR SLIDER	-
+           ******************************************/
+
+
+          var setREVStartSize = function() {
+              var	tpopt = new Object();
+              tpopt.startwidth = 1170;
+              tpopt.startheight = 900;
+              tpopt.container = jQuery('#rev_slider_24_1');
+              tpopt.fullScreen = "on";
+              tpopt.forceFullWidth="off";
+
+              tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+          };
+
+          /* CALL PLACEHOLDER */
+          setREVStartSize();
+
+
+          var tpj=jQuery;
+          tpj.noConflict();
+          var revapi24;
+
+          tpj(document).ready(function() {
+
+              if(tpj('#rev_slider_24_1').revolution == undefined)
+                  revslider_showDoubleJqueryError('#rev_slider_24_1');
+              else
+                  revapi24 = tpj('#rev_slider_24_1').show().revolution(
+                      {
+                          dottedOverlay:"none",
+                          delay:9000,
+                          startwidth:1170,
+                          startheight:900,
+                          hideThumbs:200,
+
+                          thumbWidth:100,
+                          thumbHeight:50,
+                          thumbAmount:3,
+
+                          navigationType:"none",
+                          navigationArrows:"solo",
+                          navigationStyle:"round",
+
+                          touchenabled:"on",
+                          onHoverStop:"off",
+
+                          swipe_velocity: 0.7,
+                          swipe_min_touches: 1,
+                          swipe_max_touches: 1,
+                          drag_block_vertical: false,
+
+                          keyboardNavigation:"off",
+
+                          navigationHAlign:"center",
+                          navigationVAlign:"bottom",
+                          navigationHOffset:0,
+                          navigationVOffset:20,
+
+                          soloArrowLeftHalign:"left",
+                          soloArrowLeftValign:"center",
+                          soloArrowLeftHOffset:20,
+                          soloArrowLeftVOffset:0,
+
+                          soloArrowRightHalign:"right",
+                          soloArrowRightValign:"center",
+                          soloArrowRightHOffset:20,
+                          soloArrowRightVOffset:0,
+
+                          shadow:0,
+                          fullWidth:"off",
+                          fullScreen:"on",
+
+                          spinner:"spinner0",
+
+                          stopLoop:"off",
+                          stopAfterLoops:-1,
+                          stopAtSlide:-1,
+                          shuffle:"off",
+
+                          forceFullWidth:"off",
+                          fullScreenAlignForce:"off",
+                          minFullScreenHeight:"",
+                          hideTimerBar:"on",
+                          hideThumbsOnMobile:"off",
+                          hideNavDelayOnMobile:1500,
+                          hideBulletsOnMobile:"off",
+                          hideArrowsOnMobile:"off",
+                          hideThumbsUnderResolution:0,
+
+                          fullScreenOffsetContainer: "",
+                          fullScreenOffset: "",
+                          hideSliderAtLimit:0,
+                          hideCaptionAtLimit:0,
+                          hideAllCaptionAtLilmit:0,
+                          startWithSlide:0
+                      });
+
+          });	/*ready*/
+
+      </script>
+
+      <script type="text/javascript">
+
+          jQuery(window).load(function() {
+
+              //PAGE SLIDER...
+              if(jQuery('.right-slide').length) {
+                  jQuery('.right-slide').each(function(){
+                      var $this = jQuery(this).find('.page-slider');
+                      $this.carouFredSel({
+                          responsive: true,
+                          auto: false,
+                          width: '100%',
+                          height: 'auto',
+                          scroll: {
+                              fx: "uncover-fade",
+                              duration: 800
+                          },
+                          items: { width: $this.find("li").width(),  visible: { min: 1, max: 1 } },
+                          pagination: {
+                              container: ".right-slide-nav-links",
+                              anchorBuilder: false
+                          }
+                      });
+                  });
+              }
+
+          });
+
+      </script>
 
 
 </body>

@@ -34,14 +34,18 @@ app.use(passport.session());
 var facebookBot= require('./server/bot');
 var api = require('./server/api');
 var apiUniversity = require('./server/apiUniversity');
-var apiUser = require('./server/apidiploma');
+var apidiploma = require('./server/apidiploma');
 var Section = require('./server/Section');
+var apiuser =require('./server/user.service.server');
 
+var apisub = require('./server/apisub');
+
+app.use('/apisub', apisub);
 app.use('/apiSection',Section);
 app.use('/api', api);
 app.use('/apiUniversity', apiUniversity);
-
-app.use('/', apiUser);
+app.use('/apidiploma', apidiploma);
+app.use('/', apiuser);
 
 app.get('/', function(req, res) {
     res.render('index.twig');

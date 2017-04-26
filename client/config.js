@@ -2,37 +2,37 @@
     angular.module("myApp")
         .config(function($routeProvider, $httpProvider) {
             $routeProvider
-              .when('/home', {
-                  templateUrl: 'views/home/home.view.html',
-                  controller: 'HomeController',
-                  resolve: {
-                      loggedin: checkCurrentUser
-                  }
-              })
-              .when('/profile', {
-                  templateUrl: 'views/profile/profile.view.html',
-                  controller: 'ProfileCtrl',
-                  resolve: {
-                      loggedin: checkLoggedin
-                  }
-              })
-              .when('/admin', {
-                  templateUrl: 'views/admin/admin.view.html',
-                  controller: 'AdminController',
-                  resolve: {
-                      loggedin: checkAdmin
-                  }
-              })
-              .when('/login', {
-                  templateUrl: 'views/login/login.view.html',
-                  controller: 'LoginCtrl',
-                  controllerAs: 'model'
-              })
-              .when('/register', {
-                  templateUrl: 'views/register/register.view.html',
-                  controller: 'RegisterCtrl',
-                  controllerAs: 'model'
-              }).when('/feeds', {
+                .when('/home', {
+                    templateUrl: 'views/home/home.view.html',
+                    controller: 'HomeController',
+                    resolve: {
+                        loggedin: checkCurrentUser
+                    }
+                })
+                .when('/profile', {
+                    templateUrl: 'views/profile/profile.view.html',
+                    controller: 'ProfileCtrl',
+                    resolve: {
+                        loggedin: checkLoggedin
+                    }
+                })
+                .when('/admin', {
+                    templateUrl: 'views/admin/admin.view.html',
+                    controller: 'AdminController',
+                    resolve: {
+                        loggedin: checkAdmin
+                    }
+                })
+                .when('/login', {
+                    templateUrl: 'views/login/login.view.html',
+                    controller: 'LoginCtrl',
+                    controllerAs: 'model'
+                })
+                .when('/register', {
+                    templateUrl: 'views/register/register.view.html',
+                    controller: 'RegisterCtrl',
+                    controllerAs: 'model'
+                }).when('/feeds', {
                 templateUrl: 'templates/index.html',
                 controller: 'MyFeedsController',
                 controllerAs: 'model'
@@ -90,8 +90,8 @@
                     templateUrl: 'views/universitys.html'
                 })
                 .when('/universitysclient', {
-                controller:'UniversityController',
-                templateUrl: 'views/universitys_client.html'
+                    controller:'UniversityController',
+                    templateUrl: 'views/universitys_client.html'
                 })
 
                 .when('/universitysclient/details/:id',{
@@ -131,6 +131,14 @@
                     controller:'SectionController',
                     templateUrl: 'views/add_section.html'
                 })
+                .when('/send', {
+                    templateUrl: 'views/sendnews/news.view.html',
+                    controller: 'newsController'
+                })
+                .when('/sub', {
+                    templateUrl: 'views/sendnews/add.view.html',
+                    controller: 'subController'
+                })
                 .when('/sections/edit/:id',{
                     controller:'SectionController',
                     templateUrl: 'views/edit_section.html'
@@ -143,15 +151,15 @@
                     controller: 'SectionController',
                     templateUrl:'views/section_client.html'
                 })
-              .otherwise({
-                  redirectTo: '/login'
-              });
+                .otherwise({
+                    redirectTo: '/login'
+                });
         });
-    
+
     var checkAdmin = function($q, $timeout, $http, $location, $rootScope)
     {
         var deferred = $q.defer();
-    
+
         $http.get('/api/loggedin').success(function(user)
         {
             $rootScope.errorMessage = null;
@@ -162,15 +170,15 @@
                 deferred.resolve();
             }
         });
-        
+
         return deferred.promise;
     };
-    
-    
+
+
     var checkLoggedin = function($q, $timeout, $http, $location, $rootScope)
     {
         var deferred = $q.defer();
-    
+
         $http.get('/api/loggedin').success(function(user)
         {
             $rootScope.errorMessage = null;
@@ -188,14 +196,14 @@
                 $location.url('/login');
             }
         });
-        
+
         return deferred.promise;
     };
-    
+
     var checkCurrentUser = function($q, $timeout, $http, $location, $rootScope)
     {
         var deferred = $q.defer();
-    
+
         $http.get('/api/loggedin').success(function(user)
         {
             $rootScope.errorMessage = null;
@@ -206,10 +214,10 @@
             }
             deferred.resolve();
         });
-        
+
         return deferred.promise;
     };
 
-  
+
 })();
 

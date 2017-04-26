@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp');
+var myApp = angular.module('PassportApp');
 
 myApp.controller('DiplomasController',['$scope', '$http', '$location', '$routeParams',function($scope, $http, $location, $routeParams) {
     console.log('DiplomasController loaded...');
@@ -22,6 +22,7 @@ myApp.controller('DiplomasController',['$scope', '$http', '$location', '$routePa
                 $.smkAlert({ text: "success insert", type:'success', position:'bottom-right'});
             });
         };
+   
         $scope.updateDiploma = function() {
             var id = $routeParams.id;
             $http.put('/api/diplomas/'+id, $scope.diploma).success(function(response) {
@@ -37,7 +38,6 @@ myApp.controller('DiplomasController',['$scope', '$http', '$location', '$routePa
                 $('.modal-backdrop').remove();
             });
         };
-
     $scope.getDiplomaBTS = function() {
         var genre = $routeParams.genre;   //get id มา
         $http.get('/api/diplomas/genrebts/'+genre).success(function(response) {

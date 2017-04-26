@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6240ccf9-b7f2-42d0-8527-f7fd79079d27" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/add.view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/news.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/news.view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/views/sendnews/sub.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/apisub.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/user.service.server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/config.js" afterPath="$PROJECT_DIR$/client/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/controllers/jobController.js" afterPath="$PROJECT_DIR$/client/controllers/jobController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/controllers/universitys.js" afterPath="$PROJECT_DIR$/client/controllers/universitys.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/admin/admin.view.html" afterPath="$PROJECT_DIR$/client/views/admin/admin.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/client_details.html" afterPath="$PROJECT_DIR$/client/views/client_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/services/user.services.client.js" afterPath="$PROJECT_DIR$/client/services/user.services.client.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/home/home.view.html" afterPath="$PROJECT_DIR$/client/views/home/home.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/jobs.html" afterPath="$PROJECT_DIR$/client/views/jobs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/login/login.view.html" afterPath="$PROJECT_DIR$/client/views/login/login.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/universitys.html" afterPath="$PROJECT_DIR$/client/views/universitys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/universitys_client.html" afterPath="$PROJECT_DIR$/client/views/universitys_client.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/university.js" afterPath="$PROJECT_DIR$/models/university.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/apidiploma.js" afterPath="$PROJECT_DIR$/server/apidiploma.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +32,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="universitys_client.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/universitys_client.html">
+      <file leaf-file-name="user.services.client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/services/user.services.client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3592">
-              <caret line="522" column="7" lean-forward="false" selection-start-line="522" selection-start-column="7" selection-end-line="522" selection-end-column="7" />
+            <state relative-caret-position="459">
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -46,48 +45,58 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="143" column="32" lean-forward="false" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
+            <state relative-caret-position="522">
+              <caret line="223" column="0" lean-forward="true" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/jobs.html">
+      <file leaf-file-name="home.view.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/views/home/home.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+            <state relative-caret-position="523">
+              <caret line="450" column="7" lean-forward="false" selection-start-line="450" selection-start-column="7" selection-end-line="450" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="universitys.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/universitys.html">
+      <file leaf-file-name="add.view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/sendnews/add.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
-              <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/views/section.html">
+      <file leaf-file-name="apidiploma.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/apidiploma.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="79" column="49" lean-forward="false" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+            <state relative-caret-position="17">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="522">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -156,7 +165,6 @@
         <option value="$PROJECT_DIR$/server/services/apidiploma.js" />
         <option value="$PROJECT_DIR$/server/apiUniversity.js" />
         <option value="$PROJECT_DIR$/server/api.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/apidiploma.js" />
         <option value="$PROJECT_DIR$/client/app.js" />
         <option value="$PROJECT_DIR$/client/views/mm.html" />
@@ -168,7 +176,6 @@
         <option value="$PROJECT_DIR$/server/Section.js" />
         <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/views/app.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/client/controllers/jobController.js" />
         <option value="$PROJECT_DIR$/client/controllers/universitys.js" />
         <option value="$PROJECT_DIR$/client/controllers/section.js" />
@@ -176,8 +183,6 @@
         <option value="$PROJECT_DIR$/models/Section.js" />
         <option value="$PROJECT_DIR$/models/university.js" />
         <option value="$PROJECT_DIR$/client/css/style.css" />
-        <option value="$PROJECT_DIR$/client/views/home/home.view.html" />
-        <option value="$PROJECT_DIR$/client/config.js" />
         <option value="$PROJECT_DIR$/client/views/universitys_client.html" />
         <option value="$PROJECT_DIR$/client/views/section_client.html" />
         <option value="$PROJECT_DIR$/client/views/login/login.view.html" />
@@ -186,6 +191,10 @@
         <option value="$PROJECT_DIR$/client/views/jobs.html" />
         <option value="$PROJECT_DIR$/client/views/universitys.html" />
         <option value="$PROJECT_DIR$/client/views/section.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/config.js" />
+        <option value="$PROJECT_DIR$/client/views/home/home.view.html" />
       </list>
     </option>
   </component>
@@ -202,9 +211,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -249,6 +255,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -289,7 +323,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BotOrient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,13 +365,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BotOrient" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BotOrientation/BotOrient-master" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -330,19 +382,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhouha\BotOrient\server" />
+      <recent name="C:\Users\dhouha\BotOrient\client\views" />
+      <recent name="C:\Users\dhouha\BotOrient\client" />
+      <recent name="C:\Users\WAEL\BotOrient\client\controllers" />
+      <recent name="C:\Users\WAEL\BotOrient\client\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\botaii\botaii\models" />
       <recent name="C:\botaii\botaii\server" />
       <recent name="C:\botaii\botaii\server\mod" />
       <recent name="C:\botaii\botaii\server\services" />
       <recent name="C:\botaii\botaii" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\WAEL\BotOrient\client\controllers" />
-      <recent name="C:\Users\WAEL\BotOrient\client\views" />
-      <recent name="C:\Users\WAEL\BotOrient\server" />
-      <recent name="C:\Users\WAEL\BotOrient\models" />
-      <recent name="E:\oops\2eme ann\Semestre2\4)NodeJs\pifinale\projetgit\BotOrient\models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,33 +507,34 @@
       <workItem from="1492119901303" duration="6472000" />
       <workItem from="1492549314582" duration="446000" />
       <workItem from="1492700810146" duration="15727000" />
+      <workItem from="1493113643854" duration="425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100467000" />
+    <option name="totallyTimeSpent" value="100892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29295155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29029852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3438486" sideWeight="0.5088106" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31072554" sideWeight="0.49118942" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,13 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/diploma/diplomas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -536,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/apidiploma.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6616">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -588,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/edit_university.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -627,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,23 +666,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/app.js" />
     <entry file="file://$PROJECT_DIR$/server/bot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,15 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/services/user.services.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,15 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="433" column="132" lean-forward="false" selection-start-line="433" selection-start-column="132" selection-end-line="433" selection-end-column="132" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="0" column="519983" lean-forward="false" selection-start-line="0" selection-start-column="519978" selection-end-line="0" selection-end-column="519983" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="6098" column="19" lean-forward="false" selection-start-line="6098" selection-start-column="19" selection-end-line="6098" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,15 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/home/home.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="106" column="86" lean-forward="false" selection-start-line="106" selection-start-column="80" selection-end-line="106" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,13 +781,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="289">
           <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding />
         </state>
@@ -811,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="71" column="30" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,22 +818,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="32" column="68" lean-forward="false" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/universitys_client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3592">
+        <state relative-caret-position="8840">
           <caret line="522" column="7" lean-forward="false" selection-start-line="522" selection-start-column="7" selection-end-line="522" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="143" column="32" lean-forward="false" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -859,13 +833,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/jobs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="1479">
           <caret line="87" column="45" lean-forward="false" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
           <folding />
         </state>
@@ -873,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/universitys.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
+        <state relative-caret-position="1411">
           <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
           <folding />
         </state>
@@ -883,6 +856,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="79" column="49" lean-forward="false" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/user.services.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/sendnews/add.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/apidiploma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="223" column="0" lean-forward="true" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/home/home.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="450" column="7" lean-forward="false" selection-start-line="450" selection-start-column="7" selection-end-line="450" selection-end-column="7" />
           <folding />
         </state>
       </provider>

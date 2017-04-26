@@ -2,45 +2,7 @@ h1>Admin</h1>
 
 <div class="app layout-fixed-header">
     <!-- sidebar panel -->
-    <div class="sidebar-panel offscreen-left">
-        <div class="brand">
 
-            <!-- toggle small sidebar menu -->
-            <a href="javascript:;" class="toggle-apps hidden-xs" data-toggle="quick-launch">
-                <i class=""></i>
-            </a>
-
-            <!-- /toggle small sidebar menu -->
-            <!-- toggle offscreen menu -->
-            <div class="toggle-offscreen">
-                <a href="javascript:;" class="visible-xs hamburger-icon" data-toggle="offscreen" data-move="ltr">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-            </div>
-            <!-- /toggle offscreen menu -->
-            <!-- logo -->
-            <a class="brand-logo">
-                <span><a href="#admin">Dashbord</a></span></a>
-            </a>
-            <a href="#" class="small-menu-visible brand-logo">R</a>
-            <!-- /logo -->
-        </div>
-        <span><a href="#feeds">Feeds</a></span></br>
-        <span><a href="#diplomas">diplomas</a></span>
-        <ul class="quick-launch-apps hide">
-            <li>
-
-                <a href="#admin">
-                    <i class="icon-compass"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li>      <!-- /static -->
-        </ul>
-        </nav>
-        <!-- /main navigation -->
-    </div>
     <!-- /sidebar panel -->
     <!-- content panel -->
     <div class="main-panel">
@@ -145,61 +107,26 @@ h1>Admin</h1>
 
             </ul>
         </div>
-<a class="btn btn-danger" href="#/diplomas">Go Back</a>
-<div class="panel panel-success">
+        <!-- /top header -->
+        <!-- main area -->
+        <div class="main-content">
+<a class="btn btn-danger" href="#/home">Go Back</a>
+<div class="panel panel-success" ng-init="getDiploma()">
+    <div class="panel-heading" style="color: white"><strong>{{diploma.title}}</strong></div>
     <div class="panel-body">
         <div class="row">
-            <div class="col-md-12">
-                <form class="form-horizontal" ng-submit="updateDiploma()" ng-init="getDiploma()">
-                    <legend>Edit Diploma</legend>
-                    <fieldset>
-                        <div class="form-group">
-                            <label for="input1"  class="col-md-2 control-label">Title</label>
 
-                            <div class="col-md-10">
-                                <input type="text" class="form-control" id="input1"  ng-model="diploma.title" placeholder="Title">
-                            </div>
-                        </div>
+            <div class="col-md-8">
+                <ul class="list-group">
+                    <li class="list-group-item">Genres: {{diploma.genre}}</li>
+                    <li class="list-group-item">Description: {{diploma.description}}</li>
+                </ul>
 
-                        <div class="form-group">
-                            <label for="select111" class="col-md-2 control-label">Genre</label>
-
-                            <div class="col-md-10">
-                                <select id="select111" ng-model="diploma.genre" class="form-control">
-                                    <option>BTS</option>
-                                    <option>Bachelor</option>
-                                    <option>License</option>
-                                    <option>Masters</option>
-
-                                </select>
-                            </div>
-                        </div>
-
-
-
-
-
-                        <div class="form-group">
-                            <label for="textArea" class="col-md-2 control-label">Description</label>
-
-                            <div class="col-md-10">
-                                <textarea class="form-control" rows="3" id="textArea" ng-model="diploma.description" placeholder="Description"></textarea>
-
-                            </div>
-                        </div>
-
-
-                        <div class="form-group">
-                            <div class="col-md-10 col-md-offset-2">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                                <button type="reset" class="btn btn-default">Reset</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
             </div>
         </div>
     </div>
 </div>
-    </div>
-</div>
+
+
+
+        </div></div></div>
