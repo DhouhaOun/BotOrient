@@ -1,4 +1,4 @@
-var myApp=angular.module("myApp",["ngRoute",'angularUtils.directives.dirPagination'])
+var myApp=angular.module("myApp",["ngRoute",'angularUtils.directives.dirPagination',"feeds","geolocation", "gservice","addCtrl", "queryCtrl"])
     .config(configFN);
 //(function() {
 // angular.module("myApp")

@@ -1,5 +1,4 @@
 var myApp = angular.module('myApp');
-
 myApp .controller('MyFeedsController', ['$scope', '$compile', '$http', 'storage', function ($scope, $compile, $http, storage) {
     $scope.isOrigin = function () {
       var url = window.location.href.substring(window.location.href.lastIndexOf('/') + 1);
