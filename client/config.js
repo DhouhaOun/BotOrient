@@ -132,6 +132,18 @@ function configFN($routeProvider){
 
                 // All else forward to the Join Team Control Panel
             })
+                .when('/jobsclient', {
+                    controller:'JobsController',
+                    templateUrl: 'views/job_client.html'
+                })
+                .when('/jobdetailsclient/details/:id', {
+                    controller:'JobsController',
+                    templateUrl: 'views/jobdetails_client.html'
+                })
+                .when('/upload', {
+                    controller:'JobsController',
+                    templateUrl: 'views/upload.html'
+                })
                 .when('/jobs/delete/:id',{
                     controller:'JobsController',
                     templateUrl: 'views/jobs.html'
