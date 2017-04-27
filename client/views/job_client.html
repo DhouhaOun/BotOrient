@@ -1,0 +1,510 @@
+<!DOCTYPE HTML>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js has-loader" ng-app="app"> <!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <title>Bot-Orient</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+
+
+    <link id="default-css" rel="stylesheet" href="style.css" type="text/css">
+    <link id="shortcodes-css" rel="stylesheet" href="css/shortcodes.css" type="text/css">
+    <link id="responsive-css" rel="stylesheet" href="css/responsive.css" type="text/css">
+    <link id="skin-css" rel="stylesheet" href="skins/electricblue/style.css" type="text/css">
+
+    <!-- Additional Stylesheets -->
+    <link href="css/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/component.css" type="text/css">
+    <link href="css/pace-theme-loading-bar.css" rel="stylesheet" media="all" />
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" id="rs-plugin-settings-css"  href="css/settings.css" type="text/css" media="all" />
+
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+
+    <script type="text/javascript">
+        var mytheme_urls = {
+            scroll : 'disable'
+        };
+    </script>
+
+</head>
+
+<body>
+<!-- **Wrapper** -->
+<div class="wrapper">
+
+    <div id="loader-wrapper">
+        <div class="loader">
+            <!-- the component -->
+            <div class="pre-loader"></div>
+        </div>
+    </div>
+
+    <!-- **Header Top Bar** -->
+    <div id="bbar-wrapper">
+        <div class="container">
+            <div class="column dt-sc-one-half first">
+                <p class="contact"> Call-us on : <span>845.180.1530</span> </p>
+            </div>
+
+            <div class="column dt-sc-one-half alignright">
+                <div class="buttons">
+                    <a href="#/login" title="">Login <i class="fa fa-caret-right"></i></a>
+                    <a href="#/register" title="">Register <i class="fa fa-caret-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- **Header Top Bar Ends** -->
+
+    <!-- **Header Wrapper** -->
+    <div id="header-wrapper">
+        <!-- **Header** -->
+        <header id="header" class="header5">
+            <div class="container">
+                <!-- **Logo** -->
+                <div id="logo">
+                    <a href="index.html"> <img src="images/lo.png" alt="logo"> </a>
+                    <h3 style="margin-top: -31px;
+    margin-left: 13px;
+    float: right; color:white; "> Bot-Orient</h3>
+                </div><!-- **Logo Ends** -->
+
+                <!-- **Main-Menu Navigation** -->
+                <div id="primary-menu">
+                    <div class="dt-menu-toggle" id="dt-menu-toggle">Menu<span class="dt-menu-toggle-icon"></span></div>
+                    <nav id="main-menu">
+                        <ul id="menu-main-menu" class="menu">
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/home" title=""> <span class="menu-icon fa fa-envelope"> </span> Home </a>
+
+                            </li>
+                            <li class="current_page_item menu-item-simple-parent menu-item-depth-0"> <a href="#/universitysclient" title=""> <span class="menu-icon fa fa-home"> </span> Universities </a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#/universitysclient" title=""> list of universities </a> </li>
+
+                                </ul>
+                                <a class="dt-menu-expand">+</a>
+                            </li>
+
+
+
+
+
+
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="contact.html" title=""> <span class="menu-icon fa fa-envelope"> </span> Contact </a>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div> <!-- **Main-Menu Navigation Ends** -->
+            </div>
+        </header> <!-- **Header Ends** -->
+    </div> <!-- **Header Wrapper Ends** -->
+
+    <!-- **Main** -->
+    <div id="main">
+        <div class="panel panel-default" ng-init="getJobs()">
+            <div class="panel-heading">
+                <h3 class="panel-title">Jobs</h3>
+            </div>
+
+
+
+            <div class="panel-body">
+                <div class="row">
+                    <div ng-repeat="job in jobs |filter : search">
+                        <div class="col-md-6">
+                            <div class="col-md-6">
+                                <h4>{{job.name}}</h4>
+                                <p>{{job.description}}</p>
+
+                                <a class="btn btn-primary" href="#/jobdetailsclient/details/{{job._id}}">View Details</a>
+
+
+                            </div>
+                            <div class="col-md-6">
+                                <img class="thumbnail" src="{{job.image_url}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- **Slider Section - End** -->
+
+    <!-- **Content Main** -->
+
+    <!-- **Primary** -->
+
+    <div class="dt-sc-hr-invisible-medium"></div>
+    <div class="dt-sc-clear"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="fullwidth-section white-gray">
+    <div class="fullwidth-bg">
+        <div class="container">
+
+            <div class="dt-sc-hr-invisible-medium"></div>
+            <div class="dt-sc-clear"></div>
+
+            <!-- Slider #4 -->
+            <div class="page-slider-wrapper right-slide">
+
+
+                <div class="dt-sc-two-fifth column">
+                    <ul class="page-slider">
+
+                    </ul>
+                </div>
+
+            </div> <!-- Slider #4 Ends -->
+
+            <div class="dt-sc-clear"></div>
+
+
+
+
+            <div class="dt-sc-hr-invisible-medium"></div>
+            <div class="dt-sc-clear"></div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="dt-sc-hr-invisible"></div>
+<div class="dt-sc-clear"></div>
+
+<div class="fullwidth-section" style="background-color:#4b5a72;" >
+    <div class="fullwidth-bg">
+        <div class="container">
+            <div class="dt-sc-hr-invisible"></div>
+
+            <div class="dt-sc-clear"></div>
+
+        </div>
+    </div>
+</div>
+
+<div class="dt-sc-hr-invisible-medium"></div>
+<div class="dt-sc-clear"></div>
+
+<div class="fullwidth-section">
+    <div class="fullwidth-bg">
+        <div class="container">
+
+
+
+            <div class="dt-sc-clear"></div>
+
+
+
+        </div>
+    </div>
+</div>
+
+</div> <!-- **Primary Ends** -->
+</section>  <!-- **Content Main Ends** -->
+
+</div> <!-- **Main Ends** -->
+
+<!-- **Footer** -->
+<footer id="footer">
+    <div class="container">
+        <div class="column dt-sc-one-fourth first">
+            <aside class="widget textwidget">
+                <h3 class="widgettitle">Text Widget<span></span></h3>
+                <p><strong>MultiHost</strong> helps you to quickly and easily build incredible websites with WordPress. <br> <br> Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis. </p>
+            </aside>
+        </div>
+
+        <div class="column dt-sc-one-fourth">
+            <aside class="widget widget_links">
+                <h3 class="widgettitle">Links<span></span></h3>
+                <ul>
+                    <li><a href="#" title="">Customer Support</a></li>
+                    <li><a href="#" title="">Documentation</a></li>
+                    <li><a href="#" title="">Resources</a></li>
+                    <li><a href="#" title="">General FAQs</a></li>
+                    <li><a href="#" title="">Shortcodes</a></li>
+                    <li><a href="#" title="">Theme Help Videos</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="column dt-sc-one-fourth">
+            <aside class="widget widget_recent_entries">
+                <h3 class="widgettitle">Latest Posts<span></span></h3>
+                <ul>
+                    <li>
+                        <h4 class="entry-title"><a href="">Raven's Hello World !</a></h4>
+                        <p class="show-meta">
+                            <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+                            <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h4 class="entry-title"><a href="">Our Celebration</a></h4>
+                        <p class="show-meta">
+                            <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+                            <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h4 class="entry-title"><a href="">The Real Steel</a></h4>
+                        <p class="show-meta">
+                            <span class="date-info"><i class="fa fa-clock-o"></i>29 Apr 2013</span>
+                            <a class="comments" href="#"><i class="fa fa-comment"></i>14 Comments</a>
+                        </p>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+        <div class="column dt-sc-one-fourth">
+            <aside class="widget widget_newsletter">
+                <h3 class="widgettitle">Newsletter<span></span></h3>
+                <p>Your about us information would fit here nicely.</p>
+                <form name="frmnewsletter" class="newsletter-form" action="php/subscribe.php" method="post">
+                    <input type="email" required="" placeholder="Your Email ID" name="mc_email">
+                    <input type="submit" value="Submit" class="dt-sc-button" name="btnsubscribe">
+                </form>
+                <div id="ajax_subscribe_msg"></div>
+            </aside>
+
+            <div class="widget textwidget">
+                <ul class="dt-sc-social-icons">
+                    <li class="facebook"><a class="fa fa-facebook" href="#"></a></li>
+                    <li class="google"><a class="fa fa-google-plus" href="#"> </a></li>
+                    <li class="twitter"><a class="fa fa-twitter" href="#"></a></li>
+                    <li class="linkedin"><a class="fa fa-linkedin" href="#"></a></li>
+                    <li class="dribbble"><a class="fa fa-dribbble" href="#"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <p> Copyright &copy; 2014, developed by <a href="">BuddhaThemes</a>. All rights reserved. </p>
+        </div>
+    </div>
+</footer> <!-- **Footer Ends** -->
+
+</div> <!-- **Wrapper Ends** -->
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+<script type="text/javascript" src="js/pace.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/jquery.tabs.min.js"></script>
+<script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
+<script type="text/javascript" src="js/jquery.donutchart.js"></script>
+<script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>
+<script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
+
+<script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+<script type="text/javascript" src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+
+<script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/revslider/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/revslider/jquery.themepunch.revolution.min.js"></script>
+
+<script type="text/javascript">
+
+    /******************************************
+     -	PREPARE PLACEHOLDER FOR SLIDER	-
+     ******************************************/
+
+
+    var setREVStartSize = function() {
+        var	tpopt = new Object();
+        tpopt.startwidth = 1170;
+        tpopt.startheight = 900;
+        tpopt.container = jQuery('#rev_slider_24_1');
+        tpopt.fullScreen = "on";
+        tpopt.forceFullWidth="off";
+
+        tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+    };
+
+    /* CALL PLACEHOLDER */
+    setREVStartSize();
+
+
+    var tpj=jQuery;
+    tpj.noConflict();
+    var revapi24;
+
+    tpj(document).ready(function() {
+
+        if(tpj('#rev_slider_24_1').revolution == undefined)
+            revslider_showDoubleJqueryError('#rev_slider_24_1');
+        else
+            revapi24 = tpj('#rev_slider_24_1').show().revolution(
+                {
+                    dottedOverlay:"none",
+                    delay:9000,
+                    startwidth:1170,
+                    startheight:900,
+                    hideThumbs:200,
+
+                    thumbWidth:100,
+                    thumbHeight:50,
+                    thumbAmount:3,
+
+                    navigationType:"none",
+                    navigationArrows:"solo",
+                    navigationStyle:"round",
+
+                    touchenabled:"on",
+                    onHoverStop:"off",
+
+                    swipe_velocity: 0.7,
+                    swipe_min_touches: 1,
+                    swipe_max_touches: 1,
+                    drag_block_vertical: false,
+
+                    keyboardNavigation:"off",
+
+                    navigationHAlign:"center",
+                    navigationVAlign:"bottom",
+                    navigationHOffset:0,
+                    navigationVOffset:20,
+
+                    soloArrowLeftHalign:"left",
+                    soloArrowLeftValign:"center",
+                    soloArrowLeftHOffset:20,
+                    soloArrowLeftVOffset:0,
+
+                    soloArrowRightHalign:"right",
+                    soloArrowRightValign:"center",
+                    soloArrowRightHOffset:20,
+                    soloArrowRightVOffset:0,
+
+                    shadow:0,
+                    fullWidth:"off",
+                    fullScreen:"on",
+
+                    spinner:"spinner0",
+
+                    stopLoop:"off",
+                    stopAfterLoops:-1,
+                    stopAtSlide:-1,
+                    shuffle:"off",
+
+                    forceFullWidth:"off",
+                    fullScreenAlignForce:"off",
+                    minFullScreenHeight:"",
+                    hideTimerBar:"on",
+                    hideThumbsOnMobile:"off",
+                    hideNavDelayOnMobile:1500,
+                    hideBulletsOnMobile:"off",
+                    hideArrowsOnMobile:"off",
+                    hideThumbsUnderResolution:0,
+
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "",
+                    hideSliderAtLimit:0,
+                    hideCaptionAtLimit:0,
+                    hideAllCaptionAtLilmit:0,
+                    startWithSlide:0
+                });
+
+    });	/*ready*/
+
+</script>
+
+<script type="text/javascript">
+
+    jQuery(window).load(function() {
+
+        //PAGE SLIDER...
+        if(jQuery('.right-slide').length) {
+            jQuery('.right-slide').each(function(){
+                var $this = jQuery(this).find('.page-slider');
+                $this.carouFredSel({
+                    responsive: true,
+                    auto: false,
+                    width: '100%',
+                    height: 'auto',
+                    scroll: {
+                        fx: "uncover-fade",
+                        duration: 800
+                    },
+                    items: { width: $this.find("li").width(),  visible: { min: 1, max: 1 } },
+                    pagination: {
+                        container: ".right-slide-nav-links",
+                        anchorBuilder: false
+                    }
+                });
+            });
+        }
+
+    });
+
+</script>
+
+
+</body>
+
+</html>
