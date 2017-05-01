@@ -65,9 +65,7 @@
     <!-- **Header Top Bar** -->
     <div id="bbar-wrapper">
         <div class="container">
-            <div class="column dt-sc-one-half first">
-                <p class="contact"> Call-us on : <span>845.180.1530</span> </p>
-            </div>
+
 
             <div class="column dt-sc-one-half alignright">
                 <div class="buttons">
@@ -112,9 +110,13 @@
 
 
 
+                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/diplomasclient"> <span class="menu-icon fa fa-home"> </span> Diplomas </a>
+                                <ul class="sub-menu">
+                                    <li> <a href="#/diplomasclient" title=""> list of diplomas </a> </li>
+                                </ul>
+                                <a class="dt-menu-expand">+</a>
+                            </li>
 
-
-                            <li class="menu-item-simple-parent menu-item-depth-0"> <a href="contact.html" title=""> <span class="menu-icon fa fa-envelope"> </span> Contact </a>
 
                             </li>
 
@@ -150,7 +152,7 @@
                     <div ng-repeat="university in universitys |filter : search">
                         <div class="col-md-6">
                             <div class="col-md-6">
-                                <h4>{{university.name}}</h4>
+                                <h4>{{university.title}}</h4>
                                 <p>{{university.adresse}}</p>
 
                                 <a class="btn btn-primary" href="#/universitysclient/details/{{university._id}}">View Details</a>

@@ -10,6 +10,7 @@ var multer        = require('multer');
 var passport      = require('passport');
 var cookieParser  = require('cookie-parser');
 var session       = require('cookie-session');
+var wagner = require('wagner-core');
 const uuid = require('node-uuid');
 const request = require('request');
 const JSONbig = require('json-bigint');
@@ -52,7 +53,9 @@ app.use('/api', api);
 app.use('/apiUniversity', apiUniversity);
 app.use('/apidiploma', apidiploma);
 app.use('/', apiuser);
-
+app.use('/reddit', require('./server/scrap')(wagner));
+app.use('/university', require('./server/scrapuniversity')(wagner));
+app.use('/job', require('./server/scrapjob')(wagner));
 app.get('/', function(req, res) {
     res.render('index.twig');
 });

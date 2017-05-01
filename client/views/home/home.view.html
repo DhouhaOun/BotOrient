@@ -17,7 +17,8 @@
 
   <!-- CSS Stylesheets -->
 
-
+    <link rel="stylesheet" href="angular-feeds/angular-feeds.min.css">
+    <link rel="stylesheet" href="styles/my-feeds.css">
   <link id="default-css" rel="stylesheet" href="style.css" type="text/css">
   <link id="shortcodes-css" rel="stylesheet" href="css/shortcodes.css" type="text/css">
   <link id="responsive-css" rel="stylesheet" href="css/responsive.css" type="text/css">
@@ -89,7 +90,7 @@
         </div><!-- **Logo Ends** -->
 
         <!-- **Main-Menu Navigation** -->
-        <div id="primary-menu">
+
           <div class="dt-menu-toggle" id="dt-menu-toggle">Menu<span class="dt-menu-toggle-icon"></span></div>
           <nav id="main-menu">
             <ul id="menu-main-menu" class="menu">
@@ -117,14 +118,10 @@
                 </ul>
                 <a class="dt-menu-expand">+</a>
               </li>
-              <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#"> <span class="menu-icon fa fa-home"> </span> Diplomas </a>
-                <ul class="sub-menu">
-                  <li><a href="#/diplomas/test/genrebts">BTS</a></li>
-                  <li><a href="#/diplomas/test/genreing">Engineering</a></li>
-                  <li><a href="#/diplomas/test/genrelicense">Licenses</a></li>
-                  <li><a href="#/diplomas/test/genremaster">Masters</a></li>
-                  <li><a href="#">Medical</a></li>
-                </ul>
+              <li class="menu-item-simple-parent menu-item-depth-0"> <a href="#/diplomasclient"> <span class="menu-icon fa fa-home"> </span> Diplomas </a>
+                  <ul class="sub-menu">
+                      <li> <a href="#/diplomasclient" title=""> list of diplomas </a> </li>
+                  </ul>
                 <a class="dt-menu-expand">+</a>
               </li>
 
@@ -135,9 +132,11 @@
             </ul>
 
           </nav>
-        </div> <!-- **Main-Menu Navigation Ends** -->
+        </div>
+    </header><!-- **Main-Menu Navigation Ends** -->
       </div>
-    </header> <!-- **Header Ends** -->
+
+  <!-- **Header Ends** -->
   </div> <!-- **Header Wrapper Ends** -->
 
   <!-- **Main** -->
@@ -191,99 +190,89 @@
   </div><!-- **Slider Section - End** -->
 
   <!-- **Content Main** -->
+<div class="row">
+
+      <div class="col-xs-8 col-sm-6">
+    <div   ng-controller="MyFeedsController">
+
+        <div class="container">
+
+
+            <div id="my-feeds" class="row">
+                <div ng-controller="FeedWidgetController" ng-repeat="feed in feeds" class="col-sm-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div ng-include src="'templates/feed-widget-control.html'"></div>
+                            <h3 ng-click="toggleFeed();" class="panel-title">{{feed.title}}</h3>
+                        </div>
+                        <div ng-if="!collapsed" class="panel-body feed-body">
+                            <div class="feed-block" feed-widget>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-show="feeds.length == 0" class="col-sm-12">
+                    <div class="alert text-center alert-warning fade in">
+                        Sorry, nothing to show here :(
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+      </div>
+</div>
+<div class="row" style="background: #3c485b" >
+
+    <div class="col-md-3"  >
+    </div>
+    <div class="col-md-6 .col-md-offset-3" >
+        <form class="form-horizontal" id="form" ng-submit="subscribe()" novalidate name="registerForm">
+
+
+            <p style="text-align:center;color: white">Subscribe to our weekly Newsletter and stay tuned.</br>
+                <span  style="margin-right: auto; margin-left:auto"  class="add-on"><i class="icon-envelope"></i></span></p>
+
+
+
+
+                    <input type="email"  class="form-control" id="email"  ng-model="sub.email" placeholder="your@email.com" data-smk-msg="Please fill out this field" required>
+
+
+
+
+
+            <br />
+            <input type="submit" value="Subscribe Now!" class="btn btn-large" />
+
+
+
+
+
+
+
+        </form>
+    </div>
+</div>
+</div>
+
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/json3/lib/json3.min.js"></script>
+<!-- /chat -->
 
   <!-- **Primary** -->
 
   <div class="dt-sc-hr-invisible-medium"></div>
-  <form class="form-horizontal" id="form" ng-submit="subscribe()" novalidate>
-
-    <fieldset>
-      <div class="form-group">
 
 
 
-      </div>
-
-
-
-
-
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <div class="thumbnail center well well-small text-center">
-              <h2>Newsletter</h2>
-
-              <p>Subscribe to our weekly Newsletter and stay tuned.</p>
-
-              <form action="" method="post">
-                <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
-                  <input type="text" class="form-control" id="input1"  ng-model="sub.email" placeholder="your@email.com" data-smk-msg="Please fill out this field" required>
-
-
-                </div>
-                <br />
-                <input type="submit" value="Subscribe Now!" class="btn btn-large" />
-              </form>
-              <div class="dt-sc-clear"></div>
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="dt-sc-hr-invisible"></div>
-            <div class="dt-sc-clear"></div>
-
-            <div class="fullwidth-section" style="background-color:#4b5a72;" >
-              <div class="fullwidth-bg">
-                <div class="container">
-                  <div class="dt-sc-hr-invisible"></div>
-
-                  <div class="dt-sc-clear"></div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="dt-sc-hr-invisible-medium"></div>
-            <div class="dt-sc-clear"></div>
-
-            <div class="fullwidth-section">
-              <div class="fullwidth-bg">
-                <div class="container">
-
-
-
-
-
-
-
-                </div>
-              </div>
-            </div>
-
-          </div> <!-- **Primary Ends** -->
-          </section>  <!-- **Content Main Ends** -->
-
-        </div>
         <!-- **Main Ends** -->
         <div class="copyright">
-          <div class="container">
+
+
+  <div class="container">
+
+
             <p> Copyright &copy; 2017, developed by <a href="">PiCrew</a>. All rights reserved. </p>
           </div>
         </div>

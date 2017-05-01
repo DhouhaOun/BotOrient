@@ -4,4 +4,14 @@ var SubSchema = mongoose.Schema({
     email: String
 });
 
-module.exports = mongoose.model('Subscription', SubSchema);
+var subscription =module.exports = mongoose.model('subscription', SubSchema);
+module.exports.allsubscription = function(callback, limit) {
+    subscription.find(callback).limit(limit);
+};
+
+
+
+//ADD diploma
+module.exports.addsubscription = function(subscription, callback) {
+    subscription.create(subscription, callback);
+};

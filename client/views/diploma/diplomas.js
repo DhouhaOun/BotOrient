@@ -38,28 +38,5 @@ myApp.controller('DiplomasController',['$scope', '$http', '$location', '$routePa
                 $('.modal-backdrop').remove();
             });
         };
-    $scope.getDiplomaBTS = function() {
-        var genre = $routeParams.genre;   //get id มา
-        $http.get('/apidiploma/diplomas/genrebts/'+genre).success(function(response) {
-            $scope.diplomas = response;
-        });
-    };
-    $scope.getDiplomaing = function() {
-        var genre = $routeParams.genre;   //get id มา
-        $http.get('/apidiploma/diplomas/genreing/'+genre).success(function(response) {
-            $scope.diplomas = response;
-        });
-    };
-    $scope.getDiplomalicense = function() {
-        var genre = $routeParams.genre;   //get id มา
-        $http.get('/apidiploma/diplomas/genrelicense/'+genre).success(function(response) {
-            $scope.diplomas = response;
-        });
-    };
-    $scope.getDiplomamaster = function() {
-        var genre = $routeParams.genre;   //get id มา
-        $http.get('/apidiploma/diplomas/genremasters/'+genre).success(function(response) {
-            $scope.diplomas = response;
-        });
-    };
+
 }]);

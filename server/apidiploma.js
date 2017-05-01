@@ -59,34 +59,7 @@ router.delete('/diplomas/:_id',function (req,res) {
 
 
 
-router.get('/diplomas/genrebts/:genre', function(req, res) {
-    Diploma.finddiplomasgenre({genre:'BTS'},function (err,diplomas) {
-        if(err)
-            return res.json(err);
-        res.json(diplomas);
-    })
-});
-router.get('/diplomas/genrelicense/:genre', function(req, res) {
-    Diploma.finddiplomasgenrelicense({genre:'Licenses'},function (err,diplomas) {
-        if(err)
-            return res.json(err);
-        res.json(diplomas);
-    })
-});
-router.get('/diplomas/genreing/:genre', function(req, res) {
-    Diploma.finddiplomasgenreing({genre:'Engineering'},function (err,diplomas) {
-        if(err)
-            return res.json(err);
-        res.json(diplomas);
-    })
-});
-router.get('/diplomas/genremasters/:genre', function(req, res) {
-    Diploma.finddiplomasgenremaster({genre:'Masters'},function (err,diplomas) {
-        if(err)
-            return res.json(err);
-        res.json(diplomas);
-    })
-});
+
 
 
 

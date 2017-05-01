@@ -1,13 +1,9 @@
 [
-  {
-    "title": "jobs",
-    "url": "http://www.keejob.com/rss/jobs/",
-    "count": 10
-  },
+
   {
     "title": "Orientation News",
-    "url": "http://www.orientation-pour-tous.fr/spip.php?page=rss",
-    "count": 10
+    "url": "http://digitalcommons.law.ggu.edu/orientation/recent.rss",
+    "count": 5
   }
 
 ]

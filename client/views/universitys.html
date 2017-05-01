@@ -436,7 +436,7 @@ T
 					<div class="input-group">
 
 
-						<input  ng-model="search.name"type="text" class="form-control" placeholder="Enter the name of university...">
+						<input  ng-model="search.title"type="text" class="form-control" placeholder="Enter the name of university...">
 						<span   class="input-group-btn">
         <button class="btn btn-secondary" type="button">Go!</button>
 
@@ -450,7 +450,7 @@ T
 						<div ng-repeat="university in universitys |filter : search">
 							<div class="col-md-6">
 								<div class="col-md-6">
-									<h4>{{university.name}}</h4>
+									<h4>{{university.title}}</h4>
 									<p>{{university.adresse}}</p>
 
 									<a class="btn btn-primary" href="#/universitys/details/{{university._id}}">View Details</a>

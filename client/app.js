@@ -1,5 +1,5 @@
 (function() {
-    angular.module("myApp", ["ngRoute","feeds","geolocation", "gservice","addCtrl", "queryCtrl"]);
+    angular.module("myApp",["ngRoute",'angularUtils.directives.dirPagination',"feeds","geolocation", "gservice","addCtrl", "queryCtrl",'ng', 'ui.grid', 'ngStorage']);
 })();
 
 //modification

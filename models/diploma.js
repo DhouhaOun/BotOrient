@@ -32,18 +32,6 @@ module.exports.getDiplomaById = function(id, callback) {
     Diploma.findById(id, callback);
 
 };
-module.exports.finddiplomasgenre = function(genre, callback) {
-    Diploma.find(genre,callback);
-};
-module.exports.finddiplomasgenreing = function(genre, callback) {
-    Diploma.find(genre,callback);
-};
-module.exports.finddiplomasgenremaster = function(genre, callback) {
-    Diploma.find(genre,callback);
-};
-module.exports.finddiplomasgenrelicense = function(genre, callback) {
-    Diploma.find(genre,callback);
-};
 
 //ADD diploma
 module.exports.addDiploma = function(diploma, callback) {

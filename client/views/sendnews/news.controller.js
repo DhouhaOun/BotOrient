@@ -4,24 +4,16 @@
         .module("myApp")
         .controller('newsController', newsController);
     
-    function newsController($scope, UserService)
+    function newsController($scope,$http)
     {
-    
 
-        $scope.send = function ()
-        {
-            UserService
-                .send(this.subject,this.text)
-                .then(
-                    function(response) {
-    
-                      console.log("email est envoyé")
-                    },
-                    function(err) {
-                        $scope.error = err;
-                        console.log("error")
-                    }
-                );
-        }
+        $scope.sendNews = function() {
+            console.log(this.subject,this.text);
+            $http.post("/api/send?text="+this.text+"&subject="+this.subject).success(function(response) {
+                console.log("email est envoyé")
+
+            });
+        };
+
     }
 })();

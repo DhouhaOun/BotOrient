@@ -22,13 +22,20 @@ Admin</h1>
             <!-- /toggle offscreen menu -->
             <!-- logo -->
             <a class="brand-logo">
-                <span><a href="#admin">Dashbord</a></span></a>
+                <span><i class="icon-compass"></i><a href="#admin">Dashbord</a></span></a>
             </a>
             <a href="#" class="small-menu-visible brand-logo">R</a>
             <!-- /logo -->
         </div>
-        <span><a href="#feeds">Feeds</a></span></br>
-        <span><a href="#diplomas">diplomas</a></span>
+        <span>	<i class="glyphicon glyphicon-education"></i> <a href="#diplomas">Diplomas</a></span></br>
+        <span>	<i class="glyphicon glyphicon-education"></i><a href="#/universitys/add">University</a></span></br>
+        <span><i class="glyphicon glyphicon-briefcase"></i><a href="#/jobs">Jobs</a></span></br>
+        <span><i class="glyphicon glyphicon-briefcase"></i><a href="#/sections">Sections</a></span></br>
+        <span><i class="glyphicon glyphicon-briefcase"></i><a href="#/send">SendNews</a></span></br>
+        <span><i class="glyphicon glyphicon-briefcase"></i><a href="#/join">Position</a></span></br>
+        <span><i class="icon-cursor"></i><a href="#/scrap">ScrapDiplomas</a></span></br>
+        <span><i class="icon-cursor"></i><a href="#/scrapuniversity">ScrapUniversities</a></span></br>
+        <span><i class="icon-cursor"></i><a href="#/scrapjob">ScrapJobs</a></span></br>
         <ul class="quick-launch-apps hide">
             <li>
 
@@ -155,7 +162,7 @@ Admin</h1>
                         </div>
 
 
-                        <form ng-submit="send()">
+                        <form ng-submit="sendNews()">
                             <div class="form-inputs">
                                 <label class="text-uppercase">Your Subject</label>
                                 <input  ng-model="subject"  class="form-control" placeholder="subject" required />
@@ -166,7 +173,7 @@ Admin</h1>
                             <button  type="submit" class="btn btn-primary btn-block">Send</button><br/>
 
 
-                    </div>
+                        </form>
                 </div>
             </div>
 

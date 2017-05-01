@@ -1,8 +1,6 @@
-var myApp=angular.module("myApp",["ngRoute",'angularUtils.directives.dirPagination',"feeds","geolocation", "gservice","addCtrl", "queryCtrl"])
-    .config(configFN);
-//(function() {
-// angular.module("myApp")
-function configFN($routeProvider){
+(function() {
+    angular.module("myApp")
+        .config(function($routeProvider, $httpProvider) {
             $routeProvider
                 .when('/home', {
                     templateUrl: 'views/home/home.view.html',
@@ -47,26 +45,15 @@ function configFN($routeProvider){
                     controller:'DiplomasController',
                     templateUrl:'views/diploma/diplomas.html'
                 })
+                .when('/diplomasclient',{
+                    controller:'DiplomasController',
+                    templateUrl:'views/diploma/diploma_client.html'
+                })
                 .when('/diplomas/detail/:id',{
                     controller:'DiplomasController',
                     templateUrl:'views/diploma/diploma_detail.html'
                 })
-                .when('/diplomas/test/:genreing',{
-                    controller:'DiplomasController',
-                    templateUrl:'views/diploma/diplomeing.html'
-                })
-                .when('/diplomas/test/:genremaster',{
-                    controller:'DiplomasController',
-                    templateUrl:'views/diploma/diplomemaster.html'
-                })
-                .when('/diplomas/test/:genrelicense',{
-                    controller:'DiplomasController',
-                    templateUrl:'views/diploma/diplomelicense.html'
-                })
-                .when('/diplomas/test/:genrebts',{
-                    controller:'DiplomasController',
-                    templateUrl:'views/diploma/diplomebts.html'
-                })
+
                 .when('/diplomas/add',{
                     controller:'DiplomasController',
                     templateUrl:'views/diploma/add_diploma.html'
@@ -165,7 +152,7 @@ function configFN($routeProvider){
                     controller: 'newsController'
                 })
                 .when('/sub', {
-                    templateUrl: 'views/sendnews/add.view.html',
+                    templateUrl: 'views/home/add.view.html',
                     controller: 'subController'
                 })
                 .when('/sections/edit/:id',{
@@ -180,10 +167,23 @@ function configFN($routeProvider){
                     controller: 'SectionController',
                     templateUrl:'views/section_client.html'
                 })
+                .when('/scrap', {
+                    controller:'scrapController',
+                    templateUrl: 'views/scrap/titles_view.html'
+                })
+                .when('/scrapuniversity', {
+                    controller:'scrapuniversityController',
+                    templateUrl: 'views/scrap/titles_viewuniversity.html'
+                })
+                .when('/scrapjob', {
+                    controller:'scrapjobController',
+                    templateUrl: 'views/scrap/titles_viewjob.html'
+                })
                 .otherwise({
                     redirectTo: '/login'
                 });
-};
+        });
+
 
     var checkAdmin = function($q, $timeout, $http, $location, $rootScope)
     {
@@ -248,5 +248,7 @@ function configFN($routeProvider){
     };
 
 
+
+})();
 
 

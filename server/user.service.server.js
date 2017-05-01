@@ -16,9 +16,9 @@ var app = express.Router();
     app.post  ('/api/register',       register);
     app.post  ('/api/user',     auth, createUser);
     app.get   ('/api/loggedin',       loggedin);
-    app.get   ('/api/user',     auth, findAllUsers);
-    app.put   ('/api/user/:id', auth, updateUser);
-    app.delete('/api/user/:id', auth, deleteUser);
+   // app.get   ('/api/user',     auth, findAllUsers);
+   // app.put   ('/api/user/:id', auth, updateUser);
+    //app.delete('/api/user/:id', auth, deleteUser);
 
     app.get   ('/auth/facebook', passport.authenticate('facebook', { scope : 'email' }));
     app.get('/auth/facebook/callback',
@@ -33,7 +33,7 @@ var app = express.Router();
             successRedirect: '/#/profile',
             failureRedirect: '/#/login'
         }));
-    app.post('/api/send', sendmail);
+
 
     var googleConfig = {
         clientID        : '784785443875-gj0388pgm01plu09dre4huof3d2sq3cb.apps.googleusercontent.com',
@@ -204,7 +204,7 @@ var app = express.Router();
     }
 
     function findAllUsers(req, res) {
-        if(isAdmin(req.user)) {
+
             userModel
                 .findAllUsers()
                 .then(
@@ -215,9 +215,7 @@ var app = express.Router();
                         res.status(400).send(err);
                     }
                 );
-        } else {
-            res.status(403);
-        }
+
     }
 
     function deleteUser(req, res) {
@@ -334,57 +332,22 @@ var app = express.Router();
             next();
         }
     };
-    function sendmail(req,res) {
-    let transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: 'ouni.nabila87@gmail.com',
-        pass: 'ISITcom2016'
-    }
-});
 
-// setup email data with unicode symbols
+app.get('/api/users', function(req, res) {
 
-var emails = [];
 
- userModel
-                .findAllUsers()
-                .then(
-                    function (users) {
-                        for (var i=0; i<users.length; i++){
-                            if(users[i].email !=  undefined){
-                
-                        emails.push(users[i].email);
-                        console.log(users[i].email);
-                        }
+        userModel
+            .findAllUsers()
+            .then(
+                function (users) {
+                    res.json(users);
+                },
+                function () {
+                    res.status(400).send(err);
                 }
-res.status(200).send("ok");
-    
-                    },
-                    function () {
-                        res.status(400).send(err);
-                    }
-                ); 
-               
-                let mailOptions = {
-    from: '"Bot" <ouni.nabila87@gmail.com>', // sender address
-    to: emails, // list of receivers
-    subject: req.query.subject, // Subject line
-    text: req.query.text, // plain text body
-    html: req.query.text // html body
-};
-// send mail with defined transport object
-transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-        return console.log(error);
-    }
-
-    console.log('Message %s sent: %s', info.messageId, info.response);
-    
-
+            );
 });
 
-    }
 
 
 

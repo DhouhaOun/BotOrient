@@ -46,8 +46,8 @@ module.exports = function() {
         updateUser: updateUser,
         findUserByGoogleId: findUserByGoogleId,
         findUserByFacebookId: findUserByFacebookId,
-        getMongooseModel: getMongooseModel,
-        countuser :countuser
+        getMongooseModel: getMongooseModel
+
     };
     return api;
 
@@ -95,13 +95,6 @@ module.exports = function() {
                 password: credentials.password
             }
         );
-    }
-    function countuser()
-    {//console.log(UserModel.find().count({gender:'Female'}));
-      return UserModel.find().count({gender:'Female'},function(err,count){
-           count1 = count;
-
-      });
     }
 
 
