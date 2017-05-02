@@ -10,13 +10,13 @@ module.exports = function(wagner) {
     // any other handler get executed.
     api.use(bodyparser.json());
 
-    api.post('/paginatee', wagner.invoke(function(university) {
+    api.post('/paginate', wagner.invoke(function(university) {
             return function(req, res) {
                 scraper(wagner, req.body.npages)
                     .then(function(){
                         university
                             .find({})
-                            .select({title: 1, numComments: 1, _id: 0})
+                            .select({title: 1, description: 1 , _id: 0})
                             .exec(function(error, pages) {
                                 if (error) {
                                     return res.

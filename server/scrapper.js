@@ -3,15 +3,14 @@ var Qpromise = require("q");
 var xray = new Xray();
 var wagner = require('wagner-core');
 require('../models/modelDiploma')(wagner);
-
 module.exports = function(wagner, npages) {
 
     var deferred = Qpromise.defer();
 
-    xray('https://www.orientation.com/diplomes/?filter%5Bkeywords%5D=&filter%5BformationType%5D%5B%5D=1&filter%5BformationType%5D%5B%5D=2&filter%5BformationType%5D%5B%5D=3&filter%5BformationType%5D%5B%5D=4&filter%5BformationType%5D%5B%5D=5&filter%5BformationType%5D%5B%5D=7&filter%5BformationType%5D%5B%5D=8&filter%5BformationType%5D%5B%5D=9&filter%5BformationType%5D%5B%5D=10&filter%5BformationType%5D%5B%5D=11&filter%5BformationType%5D%5B%5D=12&filter%5BformationType%5D%5B%5D=13&filter%5BformationType%5D%5B%5D=14&filter%5BformationType%5D%5B%5D=15&filter%5BformationType%5D%5B%5D=16&filter%5BformationType%5D%5B%5D=17&filter%5BformationType%5D%5B%5D=18&filter%5BformationType%5D%5B%5D=19&filter%5BformationType%5D%5B%5D=20&filter%5BformationType%5D%5B%5D=21&filter%5BformationType%5D%5B%5D=22&filter%5BformationType%5D%5B%5D=23&filter%5BformationType%5D%5B%5D=24', '.main',
+    xray('https://www.orientation.com/diplomes/?filter%5Bkeywords%5D=&filter%5BformationType%5D%5B%5D=1&filter%5BformationType%5D%5B%5D=2&filter%5BformationType%5D%5B%5D=3&filter%5BformationType%5D%5B%5D=4&filter%5BformationType%5D%5B%5D=5&filter%5BformationType%5D%5B%5D=7&filter%5BformationType%5D%5B%5D=12&filter%5BformationType%5D%5B%5D=13&filter%5BformationType%5D%5B%5D=15&filter%5BformationType%5D%5B%5D=19&filter%5BformationType%5D%5B%5D=20&filter%5BformationType%5D%5B%5D=21&filter%5BformationType%5D%5B%5D=22&filter%5BformationType%5D%5B%5D=23', '.main',
         {
-            titles: ['h3.ellipsis > a']
-
+            titles: ['h3.ellipsis > a'],
+            descriptions: ['div.ellipsis-x-rows']
         }
     ).paginate('a[rel~=next]@href')
         .limit(npages)
@@ -24,15 +23,22 @@ module.exports = function(wagner, npages) {
         // then populating the array documents with
         // object {title: String, numComments: Number}
         var documents = [];
+
         obj.forEach(function(page, index){
-            page.titles.map(function(item, index){
+
+
+            for(i = 0; i < page.titles.length; i++){
+
                 documents.push(
                     {
-                        title: item,
+                        title: page.titles[i],
+                        description:page.descriptions[i]
 
                     }
                 );
-            })
+            }
+
+
         })
 
         // Purge the DB then Store the data
@@ -60,9 +66,7 @@ module.exports = function(wagner, npages) {
         // Parse the comment section of the scraped data
         // input : "125 comments"
         // output: 125
-        function parseNumComments(page, index) {
-            return parseInt(page.comments[index].split(' ')[0]) || 0;
-        }
+
     }
 
     return deferred.promise;

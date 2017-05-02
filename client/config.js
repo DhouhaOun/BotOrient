@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 (function() {
     angular.module("myApp")
         .config(function($routeProvider, $httpProvider) {
-=======
-
-var myApp=angular.module("myApp",["ngRoute",'angularUtils.directives.dirPagination',"feeds","geolocation", "gservice","addCtrl", "queryCtrl"])
-    .config(configFN);
-//(function() {
-// angular.module("myApp")
-function configFN($routeProvider){
->>>>>>> 84c0556f4e5944fb33e3ead14d76f2202117eef4
             $routeProvider
                 .when('/home', {
                     templateUrl: 'views/home/home.view.html',

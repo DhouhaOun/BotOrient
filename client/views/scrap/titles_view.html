@@ -164,7 +164,14 @@
   <input type="button" value="Reset" class="reset" ng-if="ready" ng-click="reset()">
 </div>
 
-<div ng-if="ready" class="animate-if" ui-grid="{data: data}"></div>
+<div ng-if="ready" class="animate-if" >
+  <table class="table table-striped">
+    <tr ng-repeat="data in data">
+      <td class="cms_table_td">{{ data.title }}</td>
+      <td class="cms_table_td">{{ data.description }}</td>
+    </tr>
+  </table>
+</div>
 
 <div ng-show="loading" class="loader">
   <img src="../../images/img/squares.gif" alt="" />

@@ -3,15 +3,14 @@ var Qpromise = require("q");
 var xray = new Xray();
 var wagner = require('wagner-core');
 require('../models/modeluniversity')(wagner);
-
 module.exports = function(wagner, npages) {
 
     var deferred = Qpromise.defer();
 
     xray('https://www.orientation.com/etablissements/?filter%5Bkeywords%5D=&filter%5Btype%5D%5B%5D=3&filter%5Btype%5D%5B%5D=5&filter%5Btype%5D%5B%5D=6&filter%5Btype%5D%5B%5D=7&filter%5Btype%5D%5B%5D=9', '.main',
         {
-            titles: ['h3.ellipsis > a']
-
+            titles: ['h3.ellipsis > a'],
+            descriptions: ['div.ellipsis-x-rows']
         }
     ).paginate('a[rel~=next]@href')
         .limit(npages)
@@ -24,24 +23,31 @@ module.exports = function(wagner, npages) {
         // then populating the array documents with
         // object {title: String, numComments: Number}
         var documents = [];
+
         obj.forEach(function(page, index){
-            page.titles.map(function(item, index){
+
+
+            for(i = 0; i < page.titles.length; i++){
+
                 documents.push(
                     {
-                        title: item,
+                        title: page.titles[i],
+                        description:page.descriptions[i]
 
                     }
                 );
-            })
+            }
+
+
         })
 
         // Purge the DB then Store the data
         // [{{title: String, numComments: Number}}]
-        wagner.invoke(function(university ) {
+        wagner.invoke(function(university) {
             university
                 .remove({})
                 .then(function(error){
-                    SaveAll(university , documents, documents.length);
+                    SaveAll(university, documents, documents.length);
                 })
         });
         // --------- Helper Functions ----------------//
@@ -60,9 +66,7 @@ module.exports = function(wagner, npages) {
         // Parse the comment section of the scraped data
         // input : "125 comments"
         // output: 125
-        function parseNumComments(page, index) {
-            return parseInt(page.comments[index].split(' ')[0]) || 0;
-        }
+
     }
 
     return deferred.promise;

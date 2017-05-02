@@ -14,9 +14,9 @@ module.exports = function(wagner) {
             return function(req, res) {
                 scraper(wagner, req.body.npages)
                     .then(function(){
-                        diploma
+                       diploma
                             .find({})
-                            .select({title: 1, numComments: 1, _id: 0})
+                            .select({title: 1, description: 1 , _id: 0})
                             .exec(function(error, pages) {
                                 if (error) {
                                     return res.

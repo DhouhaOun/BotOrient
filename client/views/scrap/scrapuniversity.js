@@ -8,7 +8,7 @@ myApp.controller('scrapuniversityController',function($scope, $localStorage, $ht
         $scope.loading = true;
         $scope.welcome = false;
         $scope.ready = false;
-        $http.post('/university/paginatee', {npages: $scope.$storage.npages})
+        $http.post('/university/paginate', {npages: $scope.$storage.npages})
             .success(function(data) {
                 $scope.data = data.pages;
             })
