@@ -12,4 +12,7 @@ module.exports = function(wagner) {
         university:university
     };
 };
-
+var university = mongoose.model('university', require('./schema'), 'university');
+module.exports.getuniversity = function(callback, limit) {
+    university.find(callback).limit(limit);
+};

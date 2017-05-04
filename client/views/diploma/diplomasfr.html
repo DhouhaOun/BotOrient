@@ -28,7 +28,6 @@
             <!-- /logo -->
         </div>
         <span>	<i class="glyphicon glyphicon-education"></i> <a href="#diplomas">Diplomas</a></span></br>
-        <span>	<i class="glyphicon glyphicon-education"></i> <a href="#diplomasfrr">Diplomas FR</a></span></br>
         <span>	<i class="glyphicon glyphicon-education"></i><a href="#/universitys/add">University</a></span></br>
         <span><i class="glyphicon glyphicon-briefcase"></i><a href="#/jobs">Jobs</a></span></br>
         <span><i class="glyphicon glyphicon-briefcase"></i><a href="#/sections">Sections</a></span></br>
@@ -156,22 +155,26 @@
         <!-- /top header -->
         <!-- main area -->
         <div class="main-content">
-<div class="panel panel-info" ng-init="getDiplomas()">
+<div class="panel panel-info" ng-init="getDiplomasfr()">
     <div class="panel-heading" style="color: white"><b>Latest Diplomas</b></div>
     <p><input type="text" ng-model="test"  class="form-control" placeholder="search" class="fa fa-search"></p>
-    <a class="btn btn-danger" href="#/diplomas/add">Add Diplomas</a>
+
     <div class="panel-body">
         <div class="row">
-            <div ng-repeat="diploma in diplomas | filter:test">
-                <div class="col-md-6 animated fadeInUp">
-                    <div class="col-md-6">
-                      <p>{{diploma.title}}</p>
-                        <a class="btn btn-raised btn-primary" href="#/diplomas/detail/{{diploma._id}}">View Details</a>
+            <table class="table table-striped">
+                <tr>
+                    <td>titre</td>
+                    <td>description</td>
+                </tr>
+                <tr ng-repeat="diploma in diplomas | filter:test">
 
-                    </div>
 
-                </div>
-            </div>
+                    <td>{{diploma.title}}</td>
+                    <td>{{diploma.description}}</td>
+
+
+                </tr>
+            </table>
         </div>
     </div>
 </div>

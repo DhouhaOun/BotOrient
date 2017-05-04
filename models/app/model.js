@@ -28,4 +28,4 @@ universitySchema.pre('save', function(next){
 universitySchema.index({location: '2dsphere'});
 
 // Exports the UserSchema for use elsewhere. Sets the MongoDB collection to be used as: "scotch-users"
-module.exports = mongoose.model('universityy', universitySchema);
+module.exports = mongoose.model('map', universitySchema);

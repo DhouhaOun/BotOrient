@@ -19,7 +19,7 @@ myApp.controller('DiplomasController',['$scope', '$http', '$location', '$routePa
             console.log($scope.diploma);
             $http.post('/apidiploma/diplomas/', $scope.diploma).success(function(response) {
                 window.location.href='#/diplomas';
-                $.smkAlert({ text: "success insert", type:'success', position:'bottom-right'});
+
             });
         };
    

@@ -126,34 +126,33 @@
                                 <li> <a href="#/diplomasfr" title=""> list of French diplomas </a> </li>
                             </ul>
                             <a class="dt-menu-expand">+</a>
-                        </li>
-                        </ul>
-                    </nav>
-                </div> <!-- **Main-Menu Navigation Ends** -->
-
+                        </li></ul></nav></div>
         </header> <!-- **Header Ends** -->
     </div> <!-- **Header Wrapper Ends** -->
 
     <!-- **Main** -->
     <div id="main">
 
-            <div class="panel panel-info" ng-init="getDiplomas()">
-                <div class="panel-heading" style="color: white"><b>Latest Diplomas</b></div>
+            <div class="panel panel-info" ng-init="getDiplomasfr()">
                 <p><input type="text" ng-model="test"  class="form-control" placeholder="search" class="fa fa-search"></p>
 
                 <div class="panel-body">
                     <div class="row">
-                        <div ng-repeat="diploma in diplomas | filter:test">
-                            <div class="col-md-6 animated fadeInUp">
-                                <div class="col-md-6">
-                                    <p>{{diploma.title}}</p>
+                        <table>
+                            <tr>
+                                <td>titre</td>
+                                <td>description</td>
+                            </tr>
+                        <tr ng-repeat="diploma in diplomas | filter:test">
 
 
-                                </div>
+                                   <td>{{diploma.title}}</td>
+                                    <td>{{diploma.description}}</td>
 
-                            </div>
 
-    </div><!-- **Slider Section - End** -->
+                            </tr>
+                        </table>
+    =<!-- **Slider Section - End** -->
 
     <!-- **Content Main** -->
 

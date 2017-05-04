@@ -21,7 +21,7 @@ module.exports = function(wagner, npages) {
 
         // Iterate through the scraped data from reddit
         // then populating the array documents with
-        // object {title: String, numComments: Number}
+        // object {title: String}
         var documents = [];
 
         obj.forEach(function(page, index){
@@ -42,7 +42,7 @@ module.exports = function(wagner, npages) {
         })
 
         // Purge the DB then Store the data
-        // [{{title: String, numComments: Number}}]
+        // [{{title: String}}]
         wagner.invoke(function(diploma) {
             diploma
                 .remove({})
@@ -63,9 +63,7 @@ module.exports = function(wagner, npages) {
             else deferred.resolve('');
         }
 
-        // Parse the comment section of the scraped data
-        // input : "125 comments"
-        // output: 125
+
 
     }
 

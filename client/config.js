@@ -49,6 +49,30 @@
                     controller:'DiplomasController',
                     templateUrl:'views/diploma/diploma_client.html'
                 })
+                .when('/diplomasfr',{
+                    controller:'DiplomasfrController',
+                    templateUrl:'views/scrapfr/diploma_clientfr.html'
+                })
+                .when('/diplomasfrr',{
+                    controller:'DiplomasfrController',
+                    templateUrl:'views/diploma/diplomasfr.html'
+                })
+                .when('/jobsfr',{
+                    controller:'jobfrController',
+                    templateUrl:'views/scrapfr/job_clientfr.html'
+                })
+                .when('/jobsfrr',{
+                    controller:'jobfrController',
+                    templateUrl:'views/jobsfr.html'
+                })
+                .when('/universfr',{
+                    controller:'universityfrController',
+                    templateUrl:'views/scrapfr/university_clientfr.html'
+                })
+                .when('/universfrr',{
+                    controller:'universityfrController',
+                    templateUrl:'views/universityfr.html'
+                })
                 .when('/diplomas/detail/:id',{
                     controller:'DiplomasController',
                     templateUrl:'views/diploma/diploma_detail.html'

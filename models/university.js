@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 
 var universitySchema = mongoose.Schema({
-	title:{
+	name:{
 		type: String,
 		required: true
 	},
@@ -26,7 +26,7 @@ var universitySchema = mongoose.Schema({
 	}
 
 }
-    ,{collection : "university"}
+    ,{collection : "universitytunis"}
 );
 
 var University = module.exports = mongoose.model('University', universitySchema);

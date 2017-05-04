@@ -19,7 +19,8 @@ var diplomaSchema = mongoose.Schema({
         type: Date,
         default: Date.now
     }
-});
+}
+);
 var Diploma = module.export = mongoose.model('Diploma', diplomaSchema);
 
 //GET diplomas

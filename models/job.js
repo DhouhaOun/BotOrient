@@ -18,7 +18,9 @@ var jobSchema = mongoose.Schema({
 	image_url:{
 		type: String
 	}
-});
+}
+    ,{collection : "jobstunis"}
+);
 
 var Job = module.exports = mongoose.model('Job', jobSchema);
 

@@ -9,7 +9,7 @@
 
         $scope.sendNews = function() {
             console.log(this.subject,this.text);
-            $http.post("/api/send?text="+this.text+"&subject="+this.subject).success(function(response) {
+            $http.post("/apisub/sendnews?text="+this.text+"&subject="+this.subject).success(function(response) {
                 console.log("email est envoyé")
 
             });

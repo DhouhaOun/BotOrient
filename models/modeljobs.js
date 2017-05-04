@@ -12,4 +12,7 @@ module.exports = function(wagner) {
         job:job
     };
 };
-
+var job = mongoose.model('job', require('./schema'), 'jobs');
+module.exports.getjobs = function(callback, limit) {
+    job.find(callback).limit(limit);
+};

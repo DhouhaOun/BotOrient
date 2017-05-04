@@ -41,12 +41,18 @@ var facebookBot= require('./server/bot');
 var api = require('./server/api');
 var apiUniversity = require('./server/apiUniversity');
 var apidiploma = require('./server/apidiploma');
+var apdiploma = require('./server/nvapidiploma');
+var apuniversity = require('./server/nvapiuniversity');
+var apjob = require('./server/nvapijob');
 var Section = require('./server/Section');
 var apiuser =require('./server/user.service.server');
 var apimap = require('./models/app/routes');
 
 var apisub = require('./server/apisub');
 app.use('/app',apimap);
+app.use('/diploma',apdiploma);
+app.use('/university',apuniversity);
+app.use('/job',apjob);
 app.use('/apisub', apisub);
 app.use('/apiSection',Section);
 app.use('/api', api);
