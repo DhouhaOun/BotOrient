@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 
 var universitySchema = mongoose.Schema({
-	name:{
+	title:{
 		type: String,
 		required: true
 	},
